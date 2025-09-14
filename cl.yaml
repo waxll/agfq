@@ -37,30 +37,6 @@ dns:
       - 0.0.0.0/32
 proxies:
   -
-    name: '1 导航页：bit.ly/3NLNLoJ'
-    type: ssr
-    server: 8.8.8.8
-    port: 8000
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 官网：次元.net
-    type: ssr
-    server: 8.8.8.8
-    port: 8000
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
     name: '香港 01'
     type: ssr
     server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
@@ -522,8 +498,6 @@ proxy-groups:
     type: select
     proxies:
       - '⭐️ Auto'
-      - '1 导航页：bit.ly/3NLNLoJ'
-      - 官网：次元.net
       - '香港 01'
       - '香港 02'
       - '香港 03'
@@ -577,8 +551,6 @@ proxy-groups:
     name: '⭐️ Auto'
     type: url-test
     proxies:
-      - '1 导航页：bit.ly/3NLNLoJ'
-      - 官网：次元.net
       - '香港 01'
       - '香港 02'
       - '香港 03'
