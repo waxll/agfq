@@ -1,7 +1,5 @@
-#!MANAGED-CONFIG https://45.137.181.221/link/i6xL9zhGep0rQVQj?clash=1
-
 #---------------------------------------------------#
-## 上次更新于：2025-09-14 02:44:09
+## 上次更新于：2025-11-08 05:35:17
 #---------------------------------------------------#
 
 mixed-port: 7890
@@ -10,31 +8,6 @@ mode: rule
 log-level: info
 external-controller: '0.0.0.0:9090'
 secret: ''
-dns:
-  enable: true
-  ipv6: true
-  listen: '0.0.0.0:5353'
-  enhanced-mode: fake-ip
-  fake-ip-filter:
-    - '*.lan'
-    - localhost.ptlogin2.qq.com
-  ' fake-ip-range':
-    - 198.18.0.1/16
-  nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 8.8.8.8
-    - 1.1.1.1
-  fallback:
-    - 8.8.4.4
-    - 1.0.0.1
-    - 'https://dns.twnic.tw/dns-query'
-    - 'tls://8.8.4.4:853'
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
 proxies:
   -
     name: '香港 01'
@@ -492,12 +465,290 @@ proxies:
     obfs: http_simple
     obfs-param: 5d49361319.microsoft.com
     udp: true
+  -
+    name: '韩国 01 [0.8x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8061
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: '韩国 02 [0.8x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8061
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: '加拿大 06 [0.8x]'
+    type: ssr
+    server: v1abc123.sched.sma-dk.hfifx.xin
+    port: 8091
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: '加拿大 07 [0.8x]'
+    type: ssr
+    server: static-abcde12345.cdn.hfifx.xin
+    port: 8091
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: '加拿大 08 [0.8x]'
+    type: ssr
+    server: static-1q2w3e4r5t.cdn.hfifx.xin
+    port: 8091
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-以色列
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8071
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-南非
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8072
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-印度
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8073
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-墨西哥
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8074
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-巴西
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8075
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-德国
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8076
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-智利
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8077
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-法国
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8078
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-波兰
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8079
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-澳大利亚
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8070
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-瑞典
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8081
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-英国
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8082
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-西班牙
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8083
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-阿姆斯特丹
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8084
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-俄罗斯01
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8085
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-俄罗斯02
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8086
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-土耳其
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8087
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
+  -
+    name: 冷门-阿根廷
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    port: 8089
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    obfs: http_simple
+    obfs-param: 5d49361319.microsoft.com
+    udp: true
 proxy-groups:
   -
     name: '🍃 Proxies'
     type: select
     proxies:
       - '⭐️ Auto'
+      - 官网：次元.net
+      - '1 导航页：bit.ly/3NLNLoJ'
       - '香港 01'
       - '香港 02'
       - '香港 03'
@@ -536,6 +787,29 @@ proxy-groups:
       - '台湾 07 [0.8x]'
       - '台湾 08 [0.8x]'
       - '台湾 09 [原生]'
+      - '韩国 01 [0.8x]'
+      - '韩国 02 [0.8x]'
+      - '加拿大 06 [0.8x]'
+      - '加拿大 07 [0.8x]'
+      - '加拿大 08 [0.8x]'
+      - 冷门-以色列
+      - 冷门-南非
+      - 冷门-印度
+      - 冷门-墨西哥
+      - 冷门-巴西
+      - 冷门-德国
+      - 冷门-智利
+      - 冷门-法国
+      - 冷门-波兰
+      - 冷门-澳大利亚
+      - 冷门-瑞典
+      - 冷门-英国
+      - 冷门-西班牙
+      - 冷门-阿姆斯特丹
+      - 冷门-俄罗斯01
+      - 冷门-俄罗斯02
+      - 冷门-土耳其
+      - 冷门-阿根廷
   -
     name: '🍂 Domestic'
     type: select
@@ -551,6 +825,8 @@ proxy-groups:
     name: '⭐️ Auto'
     type: url-test
     proxies:
+      - 官网：次元.net
+      - '1 导航页：bit.ly/3NLNLoJ'
       - '香港 01'
       - '香港 02'
       - '香港 03'
@@ -589,11 +865,37 @@ proxy-groups:
       - '台湾 07 [0.8x]'
       - '台湾 08 [0.8x]'
       - '台湾 09 [原生]'
+      - '韩国 01 [0.8x]'
+      - '韩国 02 [0.8x]'
+      - '加拿大 06 [0.8x]'
+      - '加拿大 07 [0.8x]'
+      - '加拿大 08 [0.8x]'
+      - 冷门-以色列
+      - 冷门-南非
+      - 冷门-印度
+      - 冷门-墨西哥
+      - 冷门-巴西
+      - 冷门-德国
+      - 冷门-智利
+      - 冷门-法国
+      - 冷门-波兰
+      - 冷门-澳大利亚
+      - 冷门-瑞典
+      - 冷门-英国
+      - 冷门-西班牙
+      - 冷门-阿姆斯特丹
+      - 冷门-俄罗斯01
+      - 冷门-俄罗斯02
+      - 冷门-土耳其
+      - 冷门-阿根廷
     url: 'http://www.gstatic.com/generate_204'
     interval: '28800'
 
 
 rules:
+# 官网
+- DOMAIN-KEYWORD,muniu,🍃 Proxies
+
 # (Global_TV)
 # > ABC
 - DOMAIN-SUFFIX,edgedatg.com,🍃 Proxies
