@@ -6,75 +6,67 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 1 导航页：bit.ly/3NLNLoJ, server: 8.8.8.8, port: 8000, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 05, server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 01, server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 02, server: cname01a-njidwp5y5gbd7lbd.ay27eh.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 03, server: cname01b-njidwp5y5gbd7lbd.fz23xh.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 04, server: cname01c-njidwp5y5gbd7lbd.fz23xh.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 05, server: cname01d-njidwp5y5gbd7lbd.fz23xh.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇭🇰 香港 06 [0.8x]", server: v1abc123.sched.sma-dk.hfifx.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇭🇰 香港 07 [0.8x]", server: static-abcde12345.cdn.hfifx.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇭🇰 香港 08 [0.8x]", server: static-1q2w3e4r5t.cdn.hfifx.xin, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 05, server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 01, server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 02, server: cname01a-njidwp5y5gbd7lbd.ay27eh.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 03, server: cname01b-njidwp5y5gbd7lbd.fz23xh.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 04, server: cname01c-njidwp5y5gbd7lbd.fz23xh.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 05, server: cname01d-njidwp5y5gbd7lbd.fz23xh.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇯🇵 日本 06 [0.8x]", server: v1abc123.sched.sma-dk.hfifx.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇯🇵 日本 07 [0.8x]", server: static-abcde12345.cdn.hfifx.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇯🇵 日本 08 [0.8x]", server: static-1q2w3e4r5t.cdn.hfifx.xin, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 05, server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: "🇺🇸 美国 06 [0.8x]", server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: "🇺🇸 美国 07 [0.8x]", server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 05, server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 01, server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 02, server: cname01a-njidwp5y5gbd7lbd.ay27eh.xin, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 03, server: cname01b-njidwp5y5gbd7lbd.fz23xh.xin, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 04, server: cname01c-njidwp5y5gbd7lbd.fz23xh.xin, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 05, server: cname01d-njidwp5y5gbd7lbd.fz23xh.xin, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: cname01a-njidwp5y5gbd7lbd.ay27eh.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: cname01b-njidwp5y5gbd7lbd.fz23xh.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 04, server: cname01c-njidwp5y5gbd7lbd.fz23xh.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 05, server: cname01d-njidwp5y5gbd7lbd.fz23xh.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇸🇬 新加坡 06 [0.8x]", server: v1abc123.sched.sma-dk.hfifx.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇸🇬 新加坡 07 [0.8x]", server: static-abcde12345.cdn.hfifx.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇸🇬 新加坡 08 [0.8x]", server: static-1q2w3e4r5t.cdn.hfifx.xin, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 05, server: cname01-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 01, server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 02, server: cname01a-njidwp5y5gbd7lbd.ay27eh.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 03, server: cname01b-njidwp5y5gbd7lbd.fz23xh.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 04, server: cname01c-njidwp5y5gbd7lbd.fz23xh.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 05, server: cname01-njidwp5y5gbd7lbd.fz23xh.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇳 台湾 06 [0.8x]", server: v1abc123.sched.sma-dk.hfifx.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇳 台湾 07 [0.8x]", server: static-abcde12345.cdn.hfifx.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇳 台湾 08 [0.8x]", server: static-1q2w3e4r5t.cdn.hfifx.xin, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: "🇨🇳 台湾 09 [原生]", server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8005, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国 02, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国 03, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大 01, server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大 02, server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大 03, server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大 04, server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大 05, server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: "🇨🇳 台湾 09 [原生]", server: cname01-njidwp5y5gbd7lbd.ay27eh.xin, port: 8005, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: "🇰🇷 韩国 01 [0.8x]", server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: "🇰🇷 韩国 02 [0.8x]", server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇦 加拿大 06 [0.8x]", server: v1abc123.sched.sma-dk.hfifx.xin, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇦 加拿大 07 [0.8x]", server: static-abcde12345.cdn.hfifx.xin, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
   - {name: "🇨🇦 加拿大 08 [0.8x]", server: static-1q2w3e4r5t.cdn.hfifx.xin, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇮🇱 冷门-以色列, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8071, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇷🇺 冷门-俄罗斯01, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8085, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇷🇺 冷门-俄罗斯02, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8086, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇿🇦 冷门-南非, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8072, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇮🇳 冷门-印度, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8073, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇹🇷 冷门-土耳其, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8087, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇲🇽 冷门-墨西哥, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8074, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇧🇷 冷门-巴西, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8075, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇩🇪 冷门-德国, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8076, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇨🇱 冷门-智利, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8077, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇫🇷 冷门-法国, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8078, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇵🇱 冷门-波兰, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8079, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇦🇺 冷门-澳大利亚, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8070, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇸🇪 冷门-瑞典, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8081, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇬🇧 冷门-英国, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8082, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇪🇸 冷门-西班牙, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8083, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇳🇱 冷门-阿姆斯特丹, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8084, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
-  - {name: 🇦🇷 冷门-阿根廷, server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz, port: 8089, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇮🇱 冷门-以色列, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8071, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇿🇦 冷门-南非, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8072, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇮🇳 冷门-印度, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8073, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇲🇽 冷门-墨西哥, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8074, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇧🇷 冷门-巴西, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8075, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇩🇪 冷门-德国, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8076, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇨🇱 冷门-智利, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8077, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇫🇷 冷门-法国, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8078, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇵🇱 冷门-波兰, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8079, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇦🇺 冷门-澳大利亚, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8070, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇸🇪 冷门-瑞典, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8081, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇬🇧 冷门-英国, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8082, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇪🇸 冷门-西班牙, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8083, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇳🇱 冷门-阿姆斯特丹, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8084, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇷🇺 冷门-俄罗斯01, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8085, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇷🇺 冷门-俄罗斯02, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8086, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇹🇷 冷门-土耳其, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8087, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
+  - {name: 🇦🇷 冷门-阿根廷, server: cnamelm-dwzksl7kzye3rdby.kc28zn.xin, port: 8089, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61319:KLiG41U7vLYdwB5f, obfs-param: 5d49361319.microsoft.com, udp: true}
 proxy-groups:
   - name: 🚀 手动选择
     type: select
@@ -84,7 +76,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -115,8 +107,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -134,23 +124,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -162,6 +143,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: ♻️ 自动选择
     type: url-test
@@ -191,8 +175,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -210,23 +192,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -238,6 +211,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 💬 即时通讯
     type: select
@@ -247,7 +223,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -264,7 +240,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -297,8 +273,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -316,23 +290,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -344,6 +309,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🚀 GitHub
     type: select
@@ -352,7 +320,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -371,7 +339,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -404,8 +372,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -423,23 +389,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -451,6 +408,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🤖 Copilot
     type: select
@@ -459,7 +419,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -493,8 +453,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -512,23 +470,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -540,6 +489,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🤖 AI服务
     type: select
@@ -548,7 +500,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -581,8 +533,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -600,23 +550,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -628,6 +569,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎶 TikTok
     type: select
@@ -636,7 +580,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -670,8 +614,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -689,23 +631,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -717,6 +650,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 📹 YouTube
     type: select
@@ -725,7 +661,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -758,8 +694,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -777,23 +711,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -805,6 +730,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 Netflix
     type: select
@@ -813,7 +741,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -846,8 +774,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -865,23 +791,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -893,6 +810,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 DisneyPlus
     type: select
@@ -901,7 +821,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -934,8 +854,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -953,23 +871,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -981,6 +890,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 HBO
     type: select
@@ -989,7 +901,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1023,8 +935,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1042,23 +952,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1070,6 +971,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 PrimeVideo
     type: select
@@ -1078,7 +982,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1112,8 +1016,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1131,23 +1033,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1159,6 +1052,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 AppleTV+
     type: select
@@ -1167,7 +1063,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1201,8 +1097,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1220,23 +1114,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1248,6 +1133,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎥 Emby
     type: select
@@ -1256,7 +1144,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1290,8 +1178,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1309,23 +1195,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1337,6 +1214,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🎻 Spotify
     type: select
@@ -1345,7 +1225,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1379,8 +1259,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1398,23 +1276,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1426,11 +1295,14 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 📺 Bahamut
     type: select
     proxies:
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🚀 手动选择
       - 🎯 全球直连
   - name: 🌎 国外媒体
@@ -1440,7 +1312,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1474,8 +1346,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1493,23 +1363,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1521,6 +1382,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🛒 国外电商
     type: select
@@ -1529,7 +1393,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1563,8 +1427,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1582,23 +1444,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1610,6 +1463,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 📢 谷歌FCM
     type: select
@@ -1618,7 +1474,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1637,7 +1493,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1657,7 +1513,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1676,7 +1532,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1695,7 +1551,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1714,7 +1570,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1747,8 +1603,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1766,23 +1620,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1794,6 +1639,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🚀 测速工具
     type: select
@@ -1803,7 +1651,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1836,8 +1684,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1855,23 +1701,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1883,6 +1720,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🐟 漏网之鱼
     type: select
@@ -1891,7 +1731,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
+      - 🇨🇳 台湾节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
       - 🇬🇧 英国节点
@@ -1925,8 +1765,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1944,23 +1782,14 @@ proxy-groups:
       - 🇨🇳 台湾 07 [0.8x]
       - 🇨🇳 台湾 08 [0.8x]
       - 🇨🇳 台湾 09 [原生]
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
-      - 🇹🇷 冷门-土耳其
       - 🇲🇽 冷门-墨西哥
       - 🇧🇷 冷门-巴西
       - 🇩🇪 冷门-德国
@@ -1972,6 +1801,9 @@ proxy-groups:
       - 🇬🇧 冷门-英国
       - 🇪🇸 冷门-西班牙
       - 🇳🇱 冷门-阿姆斯特丹
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
+      - 🇹🇷 冷门-土耳其
       - 🇦🇷 冷门-阿根廷
   - name: 🔀 非标端口
     type: select
@@ -2003,8 +1835,6 @@ proxy-groups:
       - 🇺🇸 美国 03
       - 🇺🇸 美国 04
       - 🇺🇸 美国 05
-      - 🇺🇸 美国 06 [0.8x]
-      - 🇺🇸 美国 07 [0.8x]
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2033,7 +1863,7 @@ proxy-groups:
       - 🇸🇬 新加坡 06 [0.8x]
       - 🇸🇬 新加坡 07 [0.8x]
       - 🇸🇬 新加坡 08 [0.8x]
-  - name: 🇼🇸 台湾节点
+  - name: 🇨🇳 台湾节点
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
@@ -2054,20 +1884,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国 01
-      - 🇰🇷 韩国 02
-      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 01 [0.8x]
+      - 🇰🇷 韩国 02 [0.8x]
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦 加拿大 01
-      - 🇨🇦 加拿大 02
-      - 🇨🇦 加拿大 03
-      - 🇨🇦 加拿大 04
-      - 🇨🇦 加拿大 05
       - 🇨🇦 加拿大 06 [0.8x]
       - 🇨🇦 加拿大 07 [0.8x]
       - 🇨🇦 加拿大 08 [0.8x]
@@ -2114,8 +1938,6 @@ proxy-groups:
     proxies:
       - 1 导航页：bit.ly/3NLNLoJ
       - 🇮🇱 冷门-以色列
-      - 🇷🇺 冷门-俄罗斯01
-      - 🇷🇺 冷门-俄罗斯02
       - 🇿🇦 冷门-南非
       - 🇮🇳 冷门-印度
       - 🇲🇽 冷门-墨西哥
@@ -2125,6 +1947,8 @@ proxy-groups:
       - 🇦🇺 冷门-澳大利亚
       - 🇸🇪 冷门-瑞典
       - 🇪🇸 冷门-西班牙
+      - 🇷🇺 冷门-俄罗斯01
+      - 🇷🇺 冷门-俄罗斯02
       - 🇦🇷 冷门-阿根廷
   - name: 🎯 全球直连
     type: select
@@ -2137,8 +1961,10 @@ proxy-groups:
 rules:
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
-  - RULE-SET,Custom_Direct_Classical,🎯 全球直连
-  - RULE-SET,Custom_Proxy_Classical,🚀 手动选择
+  - RULE-SET,Custom_Direct_Domain,🎯 全球直连
+  - RULE-SET,Custom_Direct_Classical_IP,🎯 全球直连
+  - RULE-SET,Custom_Proxy_Domain,🚀 手动选择
+  - RULE-SET,Custom_Proxy_Classical_IP,🚀 手动选择
   - GEOSITE,google-cn,🎯 全球直连
   - GEOSITE,category-games@cn,🎯 全球直连
   - RULE-SET,Steam_CDN_Classical,🎯 全球直连
@@ -2180,17 +2006,29 @@ rules:
   - RULE-SET,Custom_Port_Direct,🔀 非标端口
   - MATCH,🐟 漏网之鱼
 rule-providers:
-  Custom_Direct_Classical:
+  Custom_Direct_Domain:
     type: http
-    behavior: classical
-    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical.yaml
-    path: ./providers/15519759398106057482.yaml
+    behavior: domain
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.yaml
+    path: ./providers/2305457515016618925_domain.yaml
     interval: 28800
-  Custom_Proxy_Classical:
+  Custom_Direct_Classical_IP:
     type: http
     behavior: classical
-    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Classical.yaml
-    path: ./providers/5958306251279867197.yaml
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical_IP.yaml
+    path: ./providers/15204165614954008964.yaml
+    interval: 28800
+  Custom_Proxy_Domain:
+    type: http
+    behavior: domain
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.yaml
+    path: ./providers/10543794580940256312_domain.yaml
+    interval: 28800
+  Custom_Proxy_Classical_IP:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Classical_IP.yaml
+    path: ./providers/3673053372641237649.yaml
     interval: 28800
   Steam_CDN_Classical:
     type: http
