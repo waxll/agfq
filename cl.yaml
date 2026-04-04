@@ -1,5 +1,7 @@
+#!MANAGED-CONFIG https://次元.net/888/79c94c0a238635de?clash=1
+
 #---------------------------------------------------#
-## 上次更新于：2025-11-08 05:35:17
+## 上次更新于：2026-04-04 04:07:31
 #---------------------------------------------------#
 
 mixed-port: 7890
@@ -10,736 +12,544 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '香港 01'
+    name: '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
     type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: 8.8.8.8
+    port: 8000
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '1 导航页：bit.ly/3NLNLoJ'
+    type: ssr
+    server: 8.8.8.8
+    port: 8000
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: 官网：次元.net
+    type: ssr
+    server: 8.8.8.8
+    port: 8000
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '香港 01 [1.5x]'
+    type: ssr
+    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8011
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '香港 02'
+    name: '香港 02 [1.5x]'
     type: ssr
-    server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8011
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '香港 03'
+    name: '香港 03 [1.2x]'
     type: ssr
-    server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: v1abc123.sched.sma-dk.denuvo2026.xyz
     port: 8011
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '香港 04'
+    name: '香港 04 [1.2x]'
     type: ssr
-    server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: static-abcde12345.cdn.denuvo2026.xyz
     port: 8011
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '香港 05'
+    name: '香港 05 [1.5x|原生]'
     type: ssr
-    server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8011
+    server: static-abcde12345.cdn.denuvo2026.xyz
+    port: 8012
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '香港 06 [0.8x]'
+    name: '日本 01 [1.5x]'
     type: ssr
-    server: v1abc123.sched.sma-dk.hfifx.xin
-    port: 8011
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '香港 07 [0.8x]'
-    type: ssr
-    server: static-abcde12345.cdn.hfifx.xin
-    port: 8011
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '香港 08 [0.8x]'
-    type: ssr
-    server: static-1q2w3e4r5t.cdn.hfifx.xin
-    port: 8011
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '日本 01'
-    type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8021
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '日本 02'
+    name: '日本 02 [1.5x]'
     type: ssr
-    server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8021
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '日本 03'
+    name: '日本 03 [1.2x]'
     type: ssr
-    server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: v1abc123.sched.sma-dk.denuvo2026.xyz
     port: 8021
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '日本 04'
+    name: '日本 04 [1.2x]'
     type: ssr
-    server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: static-abcde12345.cdn.denuvo2026.xyz
     port: 8021
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '日本 05'
+    name: '美国 01 [1.5x]'
     type: ssr
-    server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8021
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '日本 06 [0.8x]'
-    type: ssr
-    server: v1abc123.sched.sma-dk.hfifx.xin
-    port: 8021
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '日本 07 [0.8x]'
-    type: ssr
-    server: static-abcde12345.cdn.hfifx.xin
-    port: 8021
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '日本 08 [0.8x]'
-    type: ssr
-    server: static-1q2w3e4r5t.cdn.hfifx.xin
-    port: 8021
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '美国 01'
-    type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8031
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '美国 02'
+    name: '美国 02 [1.5x]'
     type: ssr
-    server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8031
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '美国 03'
+    name: '新加坡 01 [1.5x]'
     type: ssr
-    server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8031
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '美国 04'
-    type: ssr
-    server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8031
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '美国 05'
-    type: ssr
-    server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8031
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '新加坡 01'
-    type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8041
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '新加坡 02'
+    name: '新加坡 02 [1.5x]'
     type: ssr
-    server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8041
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '新加坡 03'
+    name: '新加坡 03 [1.2x]'
     type: ssr
-    server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: v1abc123.sched.sma-dk.denuvo2026.xyz
     port: 8041
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '新加坡 04'
+    name: '新加坡 04 [1.2x]'
     type: ssr
-    server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: static-abcde12345.cdn.denuvo2026.xyz
     port: 8041
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '新加坡 05'
+    name: '台湾 01 [1.5x]'
     type: ssr
-    server: cname01d-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8041
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '新加坡 06 [0.8x]'
-    type: ssr
-    server: v1abc123.sched.sma-dk.hfifx.xin
-    port: 8041
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '新加坡 07 [0.8x]'
-    type: ssr
-    server: static-abcde12345.cdn.hfifx.xin
-    port: 8041
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '新加坡 08 [0.8x]'
-    type: ssr
-    server: static-1q2w3e4r5t.cdn.hfifx.xin
-    port: 8041
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '台湾 01'
-    type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8051
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '台湾 02'
+    name: '台湾 02 [1.5x]'
     type: ssr
-    server: cname01a-njidwp5y5gbd7lbd.pompei4257.xyz
+    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
     port: 8051
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '台湾 03'
+    name: '台湾 03 [1.2x]'
     type: ssr
-    server: cname01b-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: v1abc123.sched.sma-dk.denuvo2026.xyz
     port: 8051
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '台湾 04'
+    name: '台湾 04 [1.2x]'
     type: ssr
-    server: cname01c-njidwp5y5gbd7lbd.costiera5153.xyz
+    server: static-abcde12345.cdn.denuvo2026.xyz
     port: 8051
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '台湾 05'
+    name: '台湾 05 [1.5x|原生]'
     type: ssr
-    server: cname01-njidwp5y5gbd7lbd.costiera5153.xyz
-    port: 8051
+    server: static-abcde12345.cdn.denuvo2026.xyz
+    port: 8052
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '台湾 06 [0.8x]'
+    name: '冷门-韩国 [1.5x]'
     type: ssr
-    server: v1abc123.sched.sma-dk.hfifx.xin
-    port: 8051
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '台湾 07 [0.8x]'
-    type: ssr
-    server: static-abcde12345.cdn.hfifx.xin
-    port: 8051
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '台湾 08 [0.8x]'
-    type: ssr
-    server: static-1q2w3e4r5t.cdn.hfifx.xin
-    port: 8051
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '台湾 09 [原生]'
-    type: ssr
-    server: cname01-njidwp5y5gbd7lbd.pompei4257.xyz
-    port: 8005
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: '韩国 01 [0.8x]'
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
     port: 8061
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '韩国 02 [0.8x]'
+    name: '冷门-加拿大 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8061
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8062
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '加拿大 06 [0.8x]'
+    name: '冷门-俄罗斯 [1.5x]'
     type: ssr
-    server: v1abc123.sched.sma-dk.hfifx.xin
-    port: 8091
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8063
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '加拿大 07 [0.8x]'
+    name: '冷门-德国 [1.5x]'
     type: ssr
-    server: static-abcde12345.cdn.hfifx.xin
-    port: 8091
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8064
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: '加拿大 08 [0.8x]'
+    name: '冷门-法国 [1.5x]'
     type: ssr
-    server: static-1q2w3e4r5t.cdn.hfifx.xin
-    port: 8091
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8065
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-以色列
+    name: '冷门-英国 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8071
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8066
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-南非
+    name: '冷门-澳大利亚 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8072
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8067
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-印度
+    name: '冷门-印度 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8073
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8068
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-墨西哥
+    name: '冷门-墨西哥 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8074
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8069
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-巴西
+    name: '冷门-波兰 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8075
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-德国
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8076
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-智利
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8077
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-法国
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8078
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-波兰
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8079
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-澳大利亚
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
     port: 8070
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-瑞典
+    name: '冷门-瑞典 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8071
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-西班牙 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8072
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-阿姆斯特丹 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8073
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-以色列 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8074
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-南非 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8075
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-巴西 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8076
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-智利 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8077
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-土耳其 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8078
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-阿根廷 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8079
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-奥地利 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
+    port: 8080
+    cipher: aes-256-cfb
+    password: LjtFzy
+    protocol: auth_aes128_md5
+    protocol-param: '61319:BwYMsUXk9gwb'
+    obfs: http_simple
+    obfs-param: 753b761319.microsoft.com
+    udp: true
+  -
+    name: '冷门-爱尔兰 [1.5x]'
+    type: ssr
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
     port: 8081
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
   -
-    name: 冷门-英国
+    name: '冷门-澳门 [1.5x]'
     type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
+    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
     port: 8082
     cipher: aes-256-cfb
     password: LjtFzy
     protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
+    protocol-param: '61319:BwYMsUXk9gwb'
     obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-西班牙
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8083
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-阿姆斯特丹
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8084
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-俄罗斯01
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8085
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-俄罗斯02
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8086
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-土耳其
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8087
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
-    udp: true
-  -
-    name: 冷门-阿根廷
-    type: ssr
-    server: cnamelm-dwzksl7kzye3rdby.ravenna0943.xyz
-    port: 8089
-    cipher: aes-256-cfb
-    password: LjtFzy
-    protocol: auth_aes128_md5
-    protocol-param: '61319:KLiG41U7vLYdwB5f'
-    obfs: http_simple
-    obfs-param: 5d49361319.microsoft.com
+    obfs-param: 753b761319.microsoft.com
     udp: true
 proxy-groups:
   -
@@ -747,69 +557,51 @@ proxy-groups:
     type: select
     proxies:
       - '⭐️ Auto'
-      - 官网：次元.net
+      - '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
       - '1 导航页：bit.ly/3NLNLoJ'
-      - '香港 01'
-      - '香港 02'
-      - '香港 03'
-      - '香港 04'
-      - '香港 05'
-      - '香港 06 [0.8x]'
-      - '香港 07 [0.8x]'
-      - '香港 08 [0.8x]'
-      - '日本 01'
-      - '日本 02'
-      - '日本 03'
-      - '日本 04'
-      - '日本 05'
-      - '日本 06 [0.8x]'
-      - '日本 07 [0.8x]'
-      - '日本 08 [0.8x]'
-      - '美国 01'
-      - '美国 02'
-      - '美国 03'
-      - '美国 04'
-      - '美国 05'
-      - '新加坡 01'
-      - '新加坡 02'
-      - '新加坡 03'
-      - '新加坡 04'
-      - '新加坡 05'
-      - '新加坡 06 [0.8x]'
-      - '新加坡 07 [0.8x]'
-      - '新加坡 08 [0.8x]'
-      - '台湾 01'
-      - '台湾 02'
-      - '台湾 03'
-      - '台湾 04'
-      - '台湾 05'
-      - '台湾 06 [0.8x]'
-      - '台湾 07 [0.8x]'
-      - '台湾 08 [0.8x]'
-      - '台湾 09 [原生]'
-      - '韩国 01 [0.8x]'
-      - '韩国 02 [0.8x]'
-      - '加拿大 06 [0.8x]'
-      - '加拿大 07 [0.8x]'
-      - '加拿大 08 [0.8x]'
-      - 冷门-以色列
-      - 冷门-南非
-      - 冷门-印度
-      - 冷门-墨西哥
-      - 冷门-巴西
-      - 冷门-德国
-      - 冷门-智利
-      - 冷门-法国
-      - 冷门-波兰
-      - 冷门-澳大利亚
-      - 冷门-瑞典
-      - 冷门-英国
-      - 冷门-西班牙
-      - 冷门-阿姆斯特丹
-      - 冷门-俄罗斯01
-      - 冷门-俄罗斯02
-      - 冷门-土耳其
-      - 冷门-阿根廷
+      - 官网：次元.net
+      - '香港 01 [1.5x]'
+      - '香港 02 [1.5x]'
+      - '香港 03 [1.2x]'
+      - '香港 04 [1.2x]'
+      - '香港 05 [1.5x|原生]'
+      - '日本 01 [1.5x]'
+      - '日本 02 [1.5x]'
+      - '日本 03 [1.2x]'
+      - '日本 04 [1.2x]'
+      - '美国 01 [1.5x]'
+      - '美国 02 [1.5x]'
+      - '新加坡 01 [1.5x]'
+      - '新加坡 02 [1.5x]'
+      - '新加坡 03 [1.2x]'
+      - '新加坡 04 [1.2x]'
+      - '台湾 01 [1.5x]'
+      - '台湾 02 [1.5x]'
+      - '台湾 03 [1.2x]'
+      - '台湾 04 [1.2x]'
+      - '台湾 05 [1.5x|原生]'
+      - '冷门-韩国 [1.5x]'
+      - '冷门-加拿大 [1.5x]'
+      - '冷门-俄罗斯 [1.5x]'
+      - '冷门-德国 [1.5x]'
+      - '冷门-法国 [1.5x]'
+      - '冷门-英国 [1.5x]'
+      - '冷门-澳大利亚 [1.5x]'
+      - '冷门-印度 [1.5x]'
+      - '冷门-墨西哥 [1.5x]'
+      - '冷门-波兰 [1.5x]'
+      - '冷门-瑞典 [1.5x]'
+      - '冷门-西班牙 [1.5x]'
+      - '冷门-阿姆斯特丹 [1.5x]'
+      - '冷门-以色列 [1.5x]'
+      - '冷门-南非 [1.5x]'
+      - '冷门-巴西 [1.5x]'
+      - '冷门-智利 [1.5x]'
+      - '冷门-土耳其 [1.5x]'
+      - '冷门-阿根廷 [1.5x]'
+      - '冷门-奥地利 [1.5x]'
+      - '冷门-爱尔兰 [1.5x]'
+      - '冷门-澳门 [1.5x]'
   -
     name: '🍂 Domestic'
     type: select
@@ -825,69 +617,51 @@ proxy-groups:
     name: '⭐️ Auto'
     type: url-test
     proxies:
-      - 官网：次元.net
+      - '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
       - '1 导航页：bit.ly/3NLNLoJ'
-      - '香港 01'
-      - '香港 02'
-      - '香港 03'
-      - '香港 04'
-      - '香港 05'
-      - '香港 06 [0.8x]'
-      - '香港 07 [0.8x]'
-      - '香港 08 [0.8x]'
-      - '日本 01'
-      - '日本 02'
-      - '日本 03'
-      - '日本 04'
-      - '日本 05'
-      - '日本 06 [0.8x]'
-      - '日本 07 [0.8x]'
-      - '日本 08 [0.8x]'
-      - '美国 01'
-      - '美国 02'
-      - '美国 03'
-      - '美国 04'
-      - '美国 05'
-      - '新加坡 01'
-      - '新加坡 02'
-      - '新加坡 03'
-      - '新加坡 04'
-      - '新加坡 05'
-      - '新加坡 06 [0.8x]'
-      - '新加坡 07 [0.8x]'
-      - '新加坡 08 [0.8x]'
-      - '台湾 01'
-      - '台湾 02'
-      - '台湾 03'
-      - '台湾 04'
-      - '台湾 05'
-      - '台湾 06 [0.8x]'
-      - '台湾 07 [0.8x]'
-      - '台湾 08 [0.8x]'
-      - '台湾 09 [原生]'
-      - '韩国 01 [0.8x]'
-      - '韩国 02 [0.8x]'
-      - '加拿大 06 [0.8x]'
-      - '加拿大 07 [0.8x]'
-      - '加拿大 08 [0.8x]'
-      - 冷门-以色列
-      - 冷门-南非
-      - 冷门-印度
-      - 冷门-墨西哥
-      - 冷门-巴西
-      - 冷门-德国
-      - 冷门-智利
-      - 冷门-法国
-      - 冷门-波兰
-      - 冷门-澳大利亚
-      - 冷门-瑞典
-      - 冷门-英国
-      - 冷门-西班牙
-      - 冷门-阿姆斯特丹
-      - 冷门-俄罗斯01
-      - 冷门-俄罗斯02
-      - 冷门-土耳其
-      - 冷门-阿根廷
+      - 官网：次元.net
+      - '香港 01 [1.5x]'
+      - '香港 02 [1.5x]'
+      - '香港 03 [1.2x]'
+      - '香港 04 [1.2x]'
+      - '香港 05 [1.5x|原生]'
+      - '日本 01 [1.5x]'
+      - '日本 02 [1.5x]'
+      - '日本 03 [1.2x]'
+      - '日本 04 [1.2x]'
+      - '美国 01 [1.5x]'
+      - '美国 02 [1.5x]'
+      - '新加坡 01 [1.5x]'
+      - '新加坡 02 [1.5x]'
+      - '新加坡 03 [1.2x]'
+      - '新加坡 04 [1.2x]'
+      - '台湾 01 [1.5x]'
+      - '台湾 02 [1.5x]'
+      - '台湾 03 [1.2x]'
+      - '台湾 04 [1.2x]'
+      - '台湾 05 [1.5x|原生]'
+      - '冷门-韩国 [1.5x]'
+      - '冷门-加拿大 [1.5x]'
+      - '冷门-俄罗斯 [1.5x]'
+      - '冷门-德国 [1.5x]'
+      - '冷门-法国 [1.5x]'
+      - '冷门-英国 [1.5x]'
+      - '冷门-澳大利亚 [1.5x]'
+      - '冷门-印度 [1.5x]'
+      - '冷门-墨西哥 [1.5x]'
+      - '冷门-波兰 [1.5x]'
+      - '冷门-瑞典 [1.5x]'
+      - '冷门-西班牙 [1.5x]'
+      - '冷门-阿姆斯特丹 [1.5x]'
+      - '冷门-以色列 [1.5x]'
+      - '冷门-南非 [1.5x]'
+      - '冷门-巴西 [1.5x]'
+      - '冷门-智利 [1.5x]'
+      - '冷门-土耳其 [1.5x]'
+      - '冷门-阿根廷 [1.5x]'
+      - '冷门-奥地利 [1.5x]'
+      - '冷门-爱尔兰 [1.5x]'
+      - '冷门-澳门 [1.5x]'
     url: 'http://www.gstatic.com/generate_204'
     interval: '28800'
 
