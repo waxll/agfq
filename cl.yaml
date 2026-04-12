@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://次元.net/888/11c98d34de3d4a10?clash=1
+#!MANAGED-CONFIG https://次元.net/888/d8fa09b1e0154be6?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2026-04-09 05:37:52
+## 上次更新于：2026-04-13 12:41:37
 #---------------------------------------------------#
 
 mixed-port: 7890
@@ -12,15 +12,7 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
-    type: ss
-    server: 8.8.8.8
-    port: 8500
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '1 导航页：bit.ly/3NLNLoJ'
+    name: '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
     type: ss
     server: 8.8.8.8
     port: 8500
@@ -36,345 +28,9 @@ proxies:
     password: BwYMsUXk9gwb
     udp: false
   -
-    name: '香港 01 [1.5x]'
-    type: ss
-    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8511
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '香港 02 [1.5x]'
-    type: ss
-    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8511
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '香港 03 [1.2x]'
-    type: ss
-    server: v1abc123.sched.sma-dk.denuvo2026.xyz
-    port: 8511
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '香港 04 [1.2x]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8511
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '香港 05 [1.5x|原生]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8512
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '日本 01 [1.5x]'
-    type: ss
-    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8521
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '日本 02 [1.5x]'
-    type: ss
-    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8521
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '日本 03 [1.2x]'
-    type: ss
-    server: v1abc123.sched.sma-dk.denuvo2026.xyz
-    port: 8521
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '日本 04 [1.2x]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8521
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '美国 01 [1.5x]'
-    type: ss
-    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8531
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '美国 02 [1.5x]'
-    type: ss
-    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8531
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '新加坡 01 [1.5x]'
-    type: ss
-    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8541
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '新加坡 02 [1.5x]'
-    type: ss
-    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8541
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '新加坡 03 [1.2x]'
-    type: ss
-    server: v1abc123.sched.sma-dk.denuvo2026.xyz
-    port: 8541
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '新加坡 04 [1.2x]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8541
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '台湾 01 [1.5x]'
-    type: ss
-    server: cname01-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8551
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '台湾 02 [1.5x]'
-    type: ss
-    server: cname01a-njidwp5y5gbd7lbd.denuvo2026.xyz
-    port: 8551
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '台湾 03 [1.2x]'
-    type: ss
-    server: v1abc123.sched.sma-dk.denuvo2026.xyz
-    port: 8551
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '台湾 04 [1.2x]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8551
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '台湾 05 [1.5x|原生]'
-    type: ss
-    server: static-abcde12345.cdn.denuvo2026.xyz
-    port: 8552
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-韩国 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8561
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-加拿大 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8562
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-俄罗斯 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8563
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-德国 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8564
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-法国 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8565
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-英国 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8566
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-澳大利亚 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8567
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-印度 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8568
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-墨西哥 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8569
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-波兰 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8570
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-瑞典 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8571
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-西班牙 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8572
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-阿姆斯特丹 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8573
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-以色列 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8574
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-南非 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8575
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-巴西 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8576
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-智利 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8577
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-土耳其 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8578
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-阿根廷 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8579
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-奥地利 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8580
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-爱尔兰 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8581
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '冷门-澳门 [1.5x]'
-    type: ss
-    server: cnamelm-dwzksl7kzye3rdby.denuvo2026.xyz
-    port: 8582
-    cipher: aes-128-gcm
-    password: BwYMsUXk9gwb
-    udp: false
-  -
-    name: '日本A Reality'
+    name: '日本 01 Vless直连'
     type: vless
-    server: 45.137.180.206
+    server: zhilian-jp01.fork2026.com
     port: 443
     uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
@@ -386,58 +42,729 @@ proxies:
     reality-opts:
       public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
       short-id: '2793'
+  -
+    name: '新加坡 01 Vless 直连'
+    type: vless
+    server: zhilian-sg01.fork2026.com
+    port: 443
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '台湾 01 Vless 直连【推荐】'
+    type: vless
+    server: zhilian-tw01.fork2026.com
+    port: 443
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 666b
+  -
+    name: '香港 01 VLess'
+    type: vless
+    server: feast-xhro2n.fork2026.com
+    port: 18511
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '香港 02 Vless'
+    type: vless
+    server: orbit-hzal1t.fork2026.com
+    port: 18511
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 666b
+  -
+    name: '香港 03 Vless'
+    type: vless
+    server: alchemy-hlzp2o.fork2026.com
+    port: 18511
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '日本 01 VLess'
+    type: vless
+    server: feast-xhro2n.fork2026.com
+    port: 18521
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '日本 02 Vless'
+    type: vless
+    server: orbit-hzal1t.fork2026.com
+    port: 18521
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '日本 03 Vless'
+    type: vless
+    server: alchemy-hlzp2o.fork2026.com
+    port: 18521
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: ac4f
+  -
+    name: '美国 01 VLess'
+    type: vless
+    server: feast-xhro2n.fork2026.com
+    port: 18531
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '美国 02 Vless'
+    type: vless
+    server: orbit-hzal1t.fork2026.com
+    port: 18531
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 0a84
+  -
+    name: '美国 03 Vless'
+    type: vless
+    server: alchemy-hlzp2o.fork2026.com
+    port: 18531
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '新加坡 01 VLess'
+    type: vless
+    server: feast-xhro2n.fork2026.com
+    port: 18541
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 0a84
+  -
+    name: '新加坡 02 Vless'
+    type: vless
+    server: orbit-hzal1t.fork2026.com
+    port: 18541
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 0a84
+  -
+    name: '新加坡 03 Vless'
+    type: vless
+    server: alchemy-hlzp2o.fork2026.com
+    port: 18541
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 0a84
+  -
+    name: '台湾 01 VLess'
+    type: vless
+    server: feast-xhro2n.fork2026.com
+    port: 18551
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 666b
+  -
+    name: '台湾 02 Vless'
+    type: vless
+    server: orbit-hzal1t.fork2026.com
+    port: 18551
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '台湾 03 Vless'
+    type: vless
+    server: alchemy-hlzp2o.fork2026.com
+    port: 18551
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '韩国 Vless'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18561
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '加拿大 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18562
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 666b
+  -
+    name: '俄罗斯 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18563
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '德国 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18564
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '法国 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18565
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '英国 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18566
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '澳大利亚 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18567
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '印度 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18568
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '墨西哥 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18569
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 0a84
+  -
+    name: '波兰 Vless'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18570
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '瑞典 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18571
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '西班牙 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18572
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '阿姆斯特丹 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18573
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 90ed
+  -
+    name: '以色列 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18574
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '南非 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18575
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '巴西 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18576
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '智利 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18577
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '土耳其 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18578
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '阿根廷 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18579
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '奥地利 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18580
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '爱尔兰 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18581
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: '2793'
+  -
+    name: '澳门 VLess'
+    type: vless
+    server: qita-pzu2k.fork2026.com
+    port: 18582
+    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
+      short-id: 03c8
+  -
+    name: '香港 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8511
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '香港 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8511
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '日本 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8521
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '日本 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8521
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '美国 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8531
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '美国 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8531
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '新加坡 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8541
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '新加坡 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8541
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '台湾 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8551
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  -
+    name: '台湾 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8551
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
 proxy-groups:
   -
     name: '🍃 Proxies'
     type: select
     proxies:
       - '⭐️ Auto'
-      - '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
-      - '1 导航页：bit.ly/3NLNLoJ'
+      - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
       - 官网：次元.net
-      - '香港 01 [1.5x]'
-      - '香港 02 [1.5x]'
-      - '香港 03 [1.2x]'
-      - '香港 04 [1.2x]'
-      - '香港 05 [1.5x|原生]'
-      - '日本 01 [1.5x]'
-      - '日本 02 [1.5x]'
-      - '日本 03 [1.2x]'
-      - '日本 04 [1.2x]'
-      - '美国 01 [1.5x]'
-      - '美国 02 [1.5x]'
-      - '新加坡 01 [1.5x]'
-      - '新加坡 02 [1.5x]'
-      - '新加坡 03 [1.2x]'
-      - '新加坡 04 [1.2x]'
-      - '台湾 01 [1.5x]'
-      - '台湾 02 [1.5x]'
-      - '台湾 03 [1.2x]'
-      - '台湾 04 [1.2x]'
-      - '台湾 05 [1.5x|原生]'
-      - '冷门-韩国 [1.5x]'
-      - '冷门-加拿大 [1.5x]'
-      - '冷门-俄罗斯 [1.5x]'
-      - '冷门-德国 [1.5x]'
-      - '冷门-法国 [1.5x]'
-      - '冷门-英国 [1.5x]'
-      - '冷门-澳大利亚 [1.5x]'
-      - '冷门-印度 [1.5x]'
-      - '冷门-墨西哥 [1.5x]'
-      - '冷门-波兰 [1.5x]'
-      - '冷门-瑞典 [1.5x]'
-      - '冷门-西班牙 [1.5x]'
-      - '冷门-阿姆斯特丹 [1.5x]'
-      - '冷门-以色列 [1.5x]'
-      - '冷门-南非 [1.5x]'
-      - '冷门-巴西 [1.5x]'
-      - '冷门-智利 [1.5x]'
-      - '冷门-土耳其 [1.5x]'
-      - '冷门-阿根廷 [1.5x]'
-      - '冷门-奥地利 [1.5x]'
-      - '冷门-爱尔兰 [1.5x]'
-      - '冷门-澳门 [1.5x]'
-      - '日本A Reality'
+      - '日本 01 Vless直连'
+      - '新加坡 01 Vless 直连'
+      - '台湾 01 Vless 直连【推荐】'
+      - '香港 01 VLess'
+      - '香港 02 Vless'
+      - '香港 03 Vless'
+      - '日本 01 VLess'
+      - '日本 02 Vless'
+      - '日本 03 Vless'
+      - '美国 01 VLess'
+      - '美国 02 Vless'
+      - '美国 03 Vless'
+      - '新加坡 01 VLess'
+      - '新加坡 02 Vless'
+      - '新加坡 03 Vless'
+      - '台湾 01 VLess'
+      - '台湾 02 Vless'
+      - '台湾 03 Vless'
+      - '韩国 Vless'
+      - '加拿大 VLess'
+      - '俄罗斯 VLess'
+      - '德国 VLess'
+      - '法国 VLess'
+      - '英国 VLess'
+      - '澳大利亚 VLess'
+      - '印度 VLess'
+      - '墨西哥 VLess'
+      - '波兰 Vless'
+      - '瑞典 VLess'
+      - '西班牙 VLess'
+      - '阿姆斯特丹 VLess'
+      - '以色列 VLess'
+      - '南非 VLess'
+      - '巴西 VLess'
+      - '智利 VLess'
+      - '土耳其 VLess'
+      - '阿根廷 VLess'
+      - '奥地利 VLess'
+      - '爱尔兰 VLess'
+      - '澳门 VLess'
+      - '香港 01'
+      - '香港 02'
+      - '日本 01'
+      - '日本 02'
+      - '美国 01'
+      - '美国 02'
+      - '新加坡 01'
+      - '新加坡 02'
+      - '台湾 01'
+      - '台湾 02'
   -
     name: '🍂 Domestic'
     type: select
@@ -453,52 +780,58 @@ proxy-groups:
     name: '⭐️ Auto'
     type: url-test
     proxies:
-      - '！！！请尽快使用官方 Ninja客户端，已支持iOS外部测试！！！'
-      - '1 导航页：bit.ly/3NLNLoJ'
+      - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
       - 官网：次元.net
-      - '香港 01 [1.5x]'
-      - '香港 02 [1.5x]'
-      - '香港 03 [1.2x]'
-      - '香港 04 [1.2x]'
-      - '香港 05 [1.5x|原生]'
-      - '日本 01 [1.5x]'
-      - '日本 02 [1.5x]'
-      - '日本 03 [1.2x]'
-      - '日本 04 [1.2x]'
-      - '美国 01 [1.5x]'
-      - '美国 02 [1.5x]'
-      - '新加坡 01 [1.5x]'
-      - '新加坡 02 [1.5x]'
-      - '新加坡 03 [1.2x]'
-      - '新加坡 04 [1.2x]'
-      - '台湾 01 [1.5x]'
-      - '台湾 02 [1.5x]'
-      - '台湾 03 [1.2x]'
-      - '台湾 04 [1.2x]'
-      - '台湾 05 [1.5x|原生]'
-      - '冷门-韩国 [1.5x]'
-      - '冷门-加拿大 [1.5x]'
-      - '冷门-俄罗斯 [1.5x]'
-      - '冷门-德国 [1.5x]'
-      - '冷门-法国 [1.5x]'
-      - '冷门-英国 [1.5x]'
-      - '冷门-澳大利亚 [1.5x]'
-      - '冷门-印度 [1.5x]'
-      - '冷门-墨西哥 [1.5x]'
-      - '冷门-波兰 [1.5x]'
-      - '冷门-瑞典 [1.5x]'
-      - '冷门-西班牙 [1.5x]'
-      - '冷门-阿姆斯特丹 [1.5x]'
-      - '冷门-以色列 [1.5x]'
-      - '冷门-南非 [1.5x]'
-      - '冷门-巴西 [1.5x]'
-      - '冷门-智利 [1.5x]'
-      - '冷门-土耳其 [1.5x]'
-      - '冷门-阿根廷 [1.5x]'
-      - '冷门-奥地利 [1.5x]'
-      - '冷门-爱尔兰 [1.5x]'
-      - '冷门-澳门 [1.5x]'
-      - '日本A Reality'
+      - '日本 01 Vless直连'
+      - '新加坡 01 Vless 直连'
+      - '台湾 01 Vless 直连【推荐】'
+      - '香港 01 VLess'
+      - '香港 02 Vless'
+      - '香港 03 Vless'
+      - '日本 01 VLess'
+      - '日本 02 Vless'
+      - '日本 03 Vless'
+      - '美国 01 VLess'
+      - '美国 02 Vless'
+      - '美国 03 Vless'
+      - '新加坡 01 VLess'
+      - '新加坡 02 Vless'
+      - '新加坡 03 Vless'
+      - '台湾 01 VLess'
+      - '台湾 02 Vless'
+      - '台湾 03 Vless'
+      - '韩国 Vless'
+      - '加拿大 VLess'
+      - '俄罗斯 VLess'
+      - '德国 VLess'
+      - '法国 VLess'
+      - '英国 VLess'
+      - '澳大利亚 VLess'
+      - '印度 VLess'
+      - '墨西哥 VLess'
+      - '波兰 Vless'
+      - '瑞典 VLess'
+      - '西班牙 VLess'
+      - '阿姆斯特丹 VLess'
+      - '以色列 VLess'
+      - '南非 VLess'
+      - '巴西 VLess'
+      - '智利 VLess'
+      - '土耳其 VLess'
+      - '阿根廷 VLess'
+      - '奥地利 VLess'
+      - '爱尔兰 VLess'
+      - '澳门 VLess'
+      - '香港 01'
+      - '香港 02'
+      - '日本 01'
+      - '日本 02'
+      - '美国 01'
+      - '美国 02'
+      - '新加坡 01'
+      - '新加坡 02'
+      - '台湾 01'
+      - '台湾 02'
     url: 'http://www.gstatic.com/generate_204'
     interval: '28800'
 
