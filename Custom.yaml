@@ -1,0 +1,1739 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！, server: 8.8.8.8, port: 8500, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇯🇵 日本 01 Vless直连, server: zhilian-jp01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 01 Vless 直连, server: zhilian-sg01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 01 Vless 直连【推荐】, server: zhilian-tw01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01 VLess, server: feast-xhro2n.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 01 VLess, server: feast-xhro2n.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: ac4f}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 01 VLess, server: feast-xhro2n.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 01 VLess, server: feast-xhro2n.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 01 VLess, server: feast-xhro2n.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Vless, server: qita-pzu2k.fork2026.com, port: 18561, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 VLess, server: qita-pzu2k.fork2026.com, port: 18562, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 俄罗斯 VLess, server: qita-pzu2k.fork2026.com, port: 18563, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 VLess, server: qita-pzu2k.fork2026.com, port: 18564, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 法国 VLess, server: qita-pzu2k.fork2026.com, port: 18565, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 英国 VLess, server: qita-pzu2k.fork2026.com, port: 18566, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇺 澳大利亚 VLess, server: qita-pzu2k.fork2026.com, port: 18567, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度 VLess, server: qita-pzu2k.fork2026.com, port: 18568, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇽 墨西哥 VLess, server: qita-pzu2k.fork2026.com, port: 18569, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇱 波兰 Vless, server: qita-pzu2k.fork2026.com, port: 18570, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇪 瑞典 VLess, server: qita-pzu2k.fork2026.com, port: 18571, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇪🇸 西班牙 VLess, server: qita-pzu2k.fork2026.com, port: 18572, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 阿姆斯特丹 VLess, server: qita-pzu2k.fork2026.com, port: 18573, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇱 以色列 VLess, server: qita-pzu2k.fork2026.com, port: 18574, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇿🇦 南非 VLess, server: qita-pzu2k.fork2026.com, port: 18575, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇷 巴西 VLess, server: qita-pzu2k.fork2026.com, port: 18576, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇱 智利 VLess, server: qita-pzu2k.fork2026.com, port: 18577, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其 VLess, server: qita-pzu2k.fork2026.com, port: 18578, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇷 阿根廷 VLess, server: qita-pzu2k.fork2026.com, port: 18579, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇹 奥地利 VLess, server: qita-pzu2k.fork2026.com, port: 18580, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇪 爱尔兰 VLess, server: qita-pzu2k.fork2026.com, port: 18581, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇴 澳门 VLess, server: qita-pzu2k.fork2026.com, port: 18582, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8511, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇭🇰 香港 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8511, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇯🇵 日本 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8521, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇯🇵 日本 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8521, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇺🇸 美国 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8531, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇺🇸 美国 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8531, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8541, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8541, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇨🇳 台湾 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8551, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+  - {name: 🇨🇳 台湾 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8551, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
+proxy-groups:
+  - name: 🚀 手动选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 💬 即时通讯
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🎯 全球直连
+  - name: 🌐 社交媒体
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🎯 全球直连
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🚀 GitHub
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🎯 全球直连
+  - name: 🤖 ChatGPT
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🤖 AI服务
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 Netflix
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 DisneyPlus
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 HBO
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 PrimeVideo
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 AppleTV+
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🎯 全球直连
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎥 Emby
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎻 Spotify
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 📺 Bahamut
+    type: select
+    proxies:
+      - 🇼🇸 台湾节点
+      - 🚀 手动选择
+      - 🎯 全球直连
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🌎 国外媒体
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🛒 国外电商
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+  - name: 🇬 谷歌服务
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🚀 测速工具
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 Vless直连
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇰🇷 韩国 Vless
+      - 🇨🇦 加拿大 VLess
+      - 🇷🇺 俄罗斯 VLess
+      - 🇩🇪 德国 VLess
+      - 🇫🇷 法国 VLess
+      - 🇬🇧 英国 VLess
+      - 🇦🇺 澳大利亚 VLess
+      - 🇮🇳 印度 VLess
+      - 🇲🇽 墨西哥 VLess
+      - 🇵🇱 波兰 Vless
+      - 🇸🇪 瑞典 VLess
+      - 🇪🇸 西班牙 VLess
+      - 🇳🇱 阿姆斯特丹 VLess
+      - 🇮🇱 以色列 VLess
+      - 🇿🇦 南非 VLess
+      - 🇧🇷 巴西 VLess
+      - 🇨🇱 智利 VLess
+      - 🇹🇷 土耳其 VLess
+      - 🇦🇷 阿根廷 VLess
+      - 🇦🇹 奥地利 VLess
+      - 🇮🇪 爱尔兰 VLess
+      - 🇲🇴 澳门 VLess
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🔀 非标端口
+    type: select
+    proxies:
+      - 🐟 漏网之鱼
+      - 🎯 全球直连
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港 01 VLess
+      - 🇭🇰 香港 02 Vless
+      - 🇭🇰 香港 03 Vless
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+  - name: 🇺🇸 美国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国 01 VLess
+      - 🇺🇸 美国 02 Vless
+      - 🇺🇸 美国 03 Vless
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本 01 Vless直连
+      - 🇯🇵 日本 01 VLess
+      - 🇯🇵 日本 02 Vless
+      - 🇯🇵 日本 03 Vless
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡 01 Vless 直连
+      - 🇸🇬 新加坡 01 VLess
+      - 🇸🇬 新加坡 02 Vless
+      - 🇸🇬 新加坡 03 Vless
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+  - name: 🇼🇸 台湾节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇳 台湾 01 Vless 直连【推荐】
+      - 🇨🇳 台湾 01 VLess
+      - 🇨🇳 台湾 02 Vless
+      - 🇨🇳 台湾 03 Vless
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇰🇷 韩国 Vless
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - GEOSITE,private,🎯 全球直连
+  - GEOIP,private,🎯 全球直连,no-resolve
+  - RULE-SET,Custom_Direct_Domain,🎯 全球直连
+  - RULE-SET,Custom_Direct_Classical_IP,🎯 全球直连
+  - RULE-SET,Custom_Proxy_Domain,🚀 手动选择
+  - RULE-SET,Custom_Proxy_Classical_IP,🚀 手动选择
+  - GEOSITE,google-cn,🎯 全球直连
+  - GEOSITE,category-games@cn,🎯 全球直连
+  - RULE-SET,Steam_CDN_Classical,🎯 全球直连
+  - GEOSITE,category-game-platforms-download,🎯 全球直连
+  - GEOSITE,category-public-tracker,🎯 全球直连
+  - GEOSITE,category-communication,💬 即时通讯
+  - GEOSITE,category-social-media-!cn,🌐 社交媒体
+  - GEOSITE,openai,🤖 ChatGPT
+  - GEOSITE,category-ai-!cn,🤖 AI服务
+  - GEOSITE,github,🚀 GitHub
+  - GEOSITE,category-speedtest,🚀 测速工具
+  - GEOSITE,steam,🎮 Steam
+  - GEOSITE,youtube,📹 YouTube
+  - GEOSITE,apple-tvplus,🎥 AppleTV+
+  - GEOSITE,apple,🍎 苹果服务
+  - GEOSITE,microsoft,Ⓜ️ 微软服务
+  - GEOSITE,googlefcm,📢 谷歌FCM
+  - GEOSITE,google,🇬 谷歌服务
+  - GEOSITE,tiktok,🎶 TikTok
+  - GEOSITE,netflix,🎥 Netflix
+  - GEOSITE,disney,🎥 DisneyPlus
+  - GEOSITE,hbo,🎥 HBO
+  - GEOSITE,primevideo,🎥 PrimeVideo
+  - GEOSITE,category-emby,🎥 Emby
+  - GEOSITE,spotify,🎻 Spotify
+  - GEOSITE,bahamut,📺 Bahamut
+  - GEOSITE,category-games,🎮 游戏平台
+  - GEOSITE,category-entertainment,🌎 国外媒体
+  - GEOSITE,category-ecommerce,🛒 国外电商
+  - GEOSITE,gfw,🚀 手动选择
+  - GEOIP,telegram,💬 即时通讯,no-resolve
+  - GEOIP,twitter,🌐 社交媒体,no-resolve
+  - GEOIP,facebook,🌐 社交媒体,no-resolve
+  - GEOIP,google,🇬 谷歌服务,no-resolve
+  - GEOIP,netflix,🎥 Netflix,no-resolve
+  - GEOSITE,cn,🎯 全球直连
+  - GEOIP,cn,🎯 全球直连,no-resolve
+  - RULE-SET,Custom_Port_Direct,🔀 非标端口
+  - MATCH,🐟 漏网之鱼
+rule-providers:
+  Custom_Direct_Domain:
+    type: http
+    behavior: domain
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.yaml
+    path: ./providers/2305457515016618925_domain.yaml
+    interval: 28800
+  Custom_Direct_Classical_IP:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical_IP.yaml
+    path: ./providers/15204165614954008964.yaml
+    interval: 28800
+  Custom_Proxy_Domain:
+    type: http
+    behavior: domain
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.yaml
+    path: ./providers/10543794580940256312_domain.yaml
+    interval: 28800
+  Custom_Proxy_Classical_IP:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Classical_IP.yaml
+    path: ./providers/3673053372641237649.yaml
+    interval: 28800
+  Steam_CDN_Classical:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical.yaml
+    path: ./providers/13268481674871578153.yaml
+    interval: 28800
+  Custom_Port_Direct:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Port_Direct.yaml
+    path: ./providers/2451647452112462632.yaml
+    interval: 28800
