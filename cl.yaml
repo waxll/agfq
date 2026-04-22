@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://次元.net/888/f6f952f01bb8a363?clash=1
+#!MANAGED-CONFIG https://次元.net/888/aebee57af36a0f11?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2026-04-14 05:22:44
+## 上次更新于：2026-04-22 11:37:06
 #---------------------------------------------------#
 
 mixed-port: 7890
@@ -28,605 +28,405 @@ proxies:
     password: BwYMsUXk9gwb
     udp: false
   -
-    name: '日本 01 Vless直连'
-    type: vless
+    name: '日本 01 AnyTLS 直连（联通|移动）'
+    type: anytls
     server: zhilian-jp01.fork2026.com
-    port: 443
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '新加坡 01 Vless 直连'
-    type: vless
+    name: '新加坡 01 AnyTLS 直连'
+    type: anytls
     server: zhilian-sg01.fork2026.com
-    port: 443
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '台湾 01 Vless 直连【推荐】'
-    type: vless
+    name: '台湾 01 AnyTLS 直连【推荐】'
+    type: anytls
     server: zhilian-tw01.fork2026.com
-    port: 443
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 666b
   -
-    name: '香港 01 VLess'
-    type: vless
-    server: feast-xhro2n.fork2026.com
-    port: 18511
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '香港 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '香港 02 Vless'
-    type: vless
-    server: orbit-hzal1t.fork2026.com
-    port: 18511
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '香港 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 666b
   -
-    name: '香港 03 Vless'
-    type: vless
-    server: alchemy-hlzp2o.fork2026.com
-    port: 18511
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '香港 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '日本 01 VLess'
-    type: vless
-    server: feast-xhro2n.fork2026.com
-    port: 18521
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '日本 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '日本 02 Vless'
-    type: vless
-    server: orbit-hzal1t.fork2026.com
-    port: 18521
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '日本 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '日本 03 Vless'
-    type: vless
-    server: alchemy-hlzp2o.fork2026.com
-    port: 18521
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '日本 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: ac4f
   -
-    name: '美国 01 VLess'
-    type: vless
-    server: feast-xhro2n.fork2026.com
-    port: 18531
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '美国 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '美国 02 Vless'
-    type: vless
-    server: orbit-hzal1t.fork2026.com
-    port: 18531
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '美国 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 0a84
   -
-    name: '美国 03 Vless'
-    type: vless
-    server: alchemy-hlzp2o.fork2026.com
-    port: 18531
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '美国 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '新加坡 01 VLess'
-    type: vless
-    server: feast-xhro2n.fork2026.com
-    port: 18541
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '新加坡 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 0a84
   -
-    name: '新加坡 02 Vless'
-    type: vless
-    server: orbit-hzal1t.fork2026.com
-    port: 18541
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '新加坡 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 0a84
   -
-    name: '新加坡 03 Vless'
-    type: vless
-    server: alchemy-hlzp2o.fork2026.com
-    port: 18541
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '新加坡 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 0a84
   -
-    name: '台湾 01 VLess'
-    type: vless
-    server: feast-xhro2n.fork2026.com
-    port: 18551
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '台湾 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 666b
   -
-    name: '台湾 02 Vless'
-    type: vless
-    server: orbit-hzal1t.fork2026.com
-    port: 18551
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '台湾 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '台湾 03 Vless'
-    type: vless
-    server: alchemy-hlzp2o.fork2026.com
-    port: 18551
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    name: '台湾 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '韩国 Vless'
-    type: vless
+    name: '韩国 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18561
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18661
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '加拿大 VLess'
-    type: vless
+    name: '加拿大 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18562
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18662
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 666b
   -
-    name: '俄罗斯 VLess'
-    type: vless
+    name: '俄罗斯 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18563
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18663
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '德国 VLess'
-    type: vless
+    name: '德国 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18564
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18664
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '法国 VLess'
-    type: vless
+    name: '法国 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18565
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18665
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '英国 VLess'
-    type: vless
+    name: '英国 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18566
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18666
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '澳大利亚 VLess'
-    type: vless
+    name: '澳大利亚 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18567
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18667
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '印度 VLess'
-    type: vless
+    name: '印度 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18568
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18668
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '墨西哥 VLess'
-    type: vless
+    name: '墨西哥 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18569
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18669
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 0a84
   -
-    name: '波兰 Vless'
-    type: vless
+    name: '波兰 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18570
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18670
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '瑞典 VLess'
-    type: vless
+    name: '瑞典 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18571
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18671
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '西班牙 VLess'
-    type: vless
+    name: '西班牙 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18572
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18672
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '阿姆斯特丹 VLess'
-    type: vless
+    name: '阿姆斯特丹 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18573
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18673
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 90ed
   -
-    name: '以色列 VLess'
-    type: vless
+    name: '以色列 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18574
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18674
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '南非 VLess'
-    type: vless
+    name: '南非 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18575
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18675
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '巴西 VLess'
-    type: vless
+    name: '巴西 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18576
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18676
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '智利 VLess'
-    type: vless
+    name: '智利 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18577
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18677
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '土耳其 VLess'
-    type: vless
+    name: '土耳其 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18578
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18678
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '阿根廷 VLess'
-    type: vless
+    name: '阿根廷 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18579
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18679
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '奥地利 VLess'
-    type: vless
+    name: '奥地利 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18580
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18680
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
-    name: '爱尔兰 VLess'
-    type: vless
+    name: '爱尔兰 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18581
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18681
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: '2793'
   -
-    name: '澳门 VLess'
-    type: vless
+    name: '澳门 AnyTLS'
+    type: anytls
     server: qita-pzu2k.fork2026.com
-    port: 18582
-    uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    port: 18682
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
     udp: true
-    network: tcp
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
+    sni: www.baidu.com
+    skip-cert-verify: true
     client-fingerprint: firefox
-    reality-opts:
-      public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0
-      short-id: 03c8
   -
     name: '香港 01'
     type: ss
@@ -715,46 +515,46 @@ proxy-groups:
       - '⭐️ Auto'
       - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
       - 官网：次元.net
-      - '日本 01 Vless直连'
-      - '新加坡 01 Vless 直连'
-      - '台湾 01 Vless 直连【推荐】'
-      - '香港 01 VLess'
-      - '香港 02 Vless'
-      - '香港 03 Vless'
-      - '日本 01 VLess'
-      - '日本 02 Vless'
-      - '日本 03 Vless'
-      - '美国 01 VLess'
-      - '美国 02 Vless'
-      - '美国 03 Vless'
-      - '新加坡 01 VLess'
-      - '新加坡 02 Vless'
-      - '新加坡 03 Vless'
-      - '台湾 01 VLess'
-      - '台湾 02 Vless'
-      - '台湾 03 Vless'
-      - '韩国 Vless'
-      - '加拿大 VLess'
-      - '俄罗斯 VLess'
-      - '德国 VLess'
-      - '法国 VLess'
-      - '英国 VLess'
-      - '澳大利亚 VLess'
-      - '印度 VLess'
-      - '墨西哥 VLess'
-      - '波兰 Vless'
-      - '瑞典 VLess'
-      - '西班牙 VLess'
-      - '阿姆斯特丹 VLess'
-      - '以色列 VLess'
-      - '南非 VLess'
-      - '巴西 VLess'
-      - '智利 VLess'
-      - '土耳其 VLess'
-      - '阿根廷 VLess'
-      - '奥地利 VLess'
-      - '爱尔兰 VLess'
-      - '澳门 VLess'
+      - '日本 01 AnyTLS 直连（联通|移动）'
+      - '新加坡 01 AnyTLS 直连'
+      - '台湾 01 AnyTLS 直连【推荐】'
+      - '香港 01 AnyTLS'
+      - '香港 02 AnyTLS'
+      - '香港 03 AnyTLS'
+      - '日本 01 AnyTLS'
+      - '日本 02 AnyTLS'
+      - '日本 03 AnyTLS'
+      - '美国 01 AnyTLS'
+      - '美国 02 AnyTLS'
+      - '美国 03 AnyTLS'
+      - '新加坡 01 AnyTLS'
+      - '新加坡 02 AnyTLS'
+      - '新加坡 03 AnyTLS'
+      - '台湾 01 AnyTLS'
+      - '台湾 02 AnyTLS'
+      - '台湾 03 AnyTLS'
+      - '韩国 AnyTLS'
+      - '加拿大 AnyTLS'
+      - '俄罗斯 AnyTLS'
+      - '德国 AnyTLS'
+      - '法国 AnyTLS'
+      - '英国 AnyTLS'
+      - '澳大利亚 AnyTLS'
+      - '印度 AnyTLS'
+      - '墨西哥 AnyTLS'
+      - '波兰 AnyTLS'
+      - '瑞典 AnyTLS'
+      - '西班牙 AnyTLS'
+      - '阿姆斯特丹 AnyTLS'
+      - '以色列 AnyTLS'
+      - '南非 AnyTLS'
+      - '巴西 AnyTLS'
+      - '智利 AnyTLS'
+      - '土耳其 AnyTLS'
+      - '阿根廷 AnyTLS'
+      - '奥地利 AnyTLS'
+      - '爱尔兰 AnyTLS'
+      - '澳门 AnyTLS'
       - '香港 01'
       - '香港 02'
       - '日本 01'
@@ -782,46 +582,46 @@ proxy-groups:
     proxies:
       - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
       - 官网：次元.net
-      - '日本 01 Vless直连'
-      - '新加坡 01 Vless 直连'
-      - '台湾 01 Vless 直连【推荐】'
-      - '香港 01 VLess'
-      - '香港 02 Vless'
-      - '香港 03 Vless'
-      - '日本 01 VLess'
-      - '日本 02 Vless'
-      - '日本 03 Vless'
-      - '美国 01 VLess'
-      - '美国 02 Vless'
-      - '美国 03 Vless'
-      - '新加坡 01 VLess'
-      - '新加坡 02 Vless'
-      - '新加坡 03 Vless'
-      - '台湾 01 VLess'
-      - '台湾 02 Vless'
-      - '台湾 03 Vless'
-      - '韩国 Vless'
-      - '加拿大 VLess'
-      - '俄罗斯 VLess'
-      - '德国 VLess'
-      - '法国 VLess'
-      - '英国 VLess'
-      - '澳大利亚 VLess'
-      - '印度 VLess'
-      - '墨西哥 VLess'
-      - '波兰 Vless'
-      - '瑞典 VLess'
-      - '西班牙 VLess'
-      - '阿姆斯特丹 VLess'
-      - '以色列 VLess'
-      - '南非 VLess'
-      - '巴西 VLess'
-      - '智利 VLess'
-      - '土耳其 VLess'
-      - '阿根廷 VLess'
-      - '奥地利 VLess'
-      - '爱尔兰 VLess'
-      - '澳门 VLess'
+      - '日本 01 AnyTLS 直连（联通|移动）'
+      - '新加坡 01 AnyTLS 直连'
+      - '台湾 01 AnyTLS 直连【推荐】'
+      - '香港 01 AnyTLS'
+      - '香港 02 AnyTLS'
+      - '香港 03 AnyTLS'
+      - '日本 01 AnyTLS'
+      - '日本 02 AnyTLS'
+      - '日本 03 AnyTLS'
+      - '美国 01 AnyTLS'
+      - '美国 02 AnyTLS'
+      - '美国 03 AnyTLS'
+      - '新加坡 01 AnyTLS'
+      - '新加坡 02 AnyTLS'
+      - '新加坡 03 AnyTLS'
+      - '台湾 01 AnyTLS'
+      - '台湾 02 AnyTLS'
+      - '台湾 03 AnyTLS'
+      - '韩国 AnyTLS'
+      - '加拿大 AnyTLS'
+      - '俄罗斯 AnyTLS'
+      - '德国 AnyTLS'
+      - '法国 AnyTLS'
+      - '英国 AnyTLS'
+      - '澳大利亚 AnyTLS'
+      - '印度 AnyTLS'
+      - '墨西哥 AnyTLS'
+      - '波兰 AnyTLS'
+      - '瑞典 AnyTLS'
+      - '西班牙 AnyTLS'
+      - '阿姆斯特丹 AnyTLS'
+      - '以色列 AnyTLS'
+      - '南非 AnyTLS'
+      - '巴西 AnyTLS'
+      - '智利 AnyTLS'
+      - '土耳其 AnyTLS'
+      - '阿根廷 AnyTLS'
+      - '奥地利 AnyTLS'
+      - '爱尔兰 AnyTLS'
+      - '澳门 AnyTLS'
       - '香港 01'
       - '香港 02'
       - '日本 01'
