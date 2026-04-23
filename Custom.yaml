@@ -6,46 +6,46 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！, server: 8.8.8.8, port: 8500, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
-  - {name: 🇯🇵 日本 01 Vless直连, server: zhilian-jp01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 01 Vless 直连, server: zhilian-sg01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 01 Vless 直连【推荐】, server: zhilian-tw01.fork2026.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 01 VLess, server: feast-xhro2n.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18511, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 01 VLess, server: feast-xhro2n.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18521, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: ac4f}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 01 VLess, server: feast-xhro2n.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18531, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 01 VLess, server: feast-xhro2n.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18541, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 01 VLess, server: feast-xhro2n.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 02 Vless, server: orbit-hzal1t.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 03 Vless, server: alchemy-hlzp2o.fork2026.com, port: 18551, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国 Vless, server: qita-pzu2k.fork2026.com, port: 18561, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 加拿大 VLess, server: qita-pzu2k.fork2026.com, port: 18562, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 666b}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 俄罗斯 VLess, server: qita-pzu2k.fork2026.com, port: 18563, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 VLess, server: qita-pzu2k.fork2026.com, port: 18564, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 VLess, server: qita-pzu2k.fork2026.com, port: 18565, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 英国 VLess, server: qita-pzu2k.fork2026.com, port: 18566, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 澳大利亚 VLess, server: qita-pzu2k.fork2026.com, port: 18567, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度 VLess, server: qita-pzu2k.fork2026.com, port: 18568, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇽 墨西哥 VLess, server: qita-pzu2k.fork2026.com, port: 18569, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 0a84}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇱 波兰 Vless, server: qita-pzu2k.fork2026.com, port: 18570, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇪 瑞典 VLess, server: qita-pzu2k.fork2026.com, port: 18571, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇪🇸 西班牙 VLess, server: qita-pzu2k.fork2026.com, port: 18572, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 阿姆斯特丹 VLess, server: qita-pzu2k.fork2026.com, port: 18573, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 90ed}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇱 以色列 VLess, server: qita-pzu2k.fork2026.com, port: 18574, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇿🇦 南非 VLess, server: qita-pzu2k.fork2026.com, port: 18575, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西 VLess, server: qita-pzu2k.fork2026.com, port: 18576, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇱 智利 VLess, server: qita-pzu2k.fork2026.com, port: 18577, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 土耳其 VLess, server: qita-pzu2k.fork2026.com, port: 18578, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇷 阿根廷 VLess, server: qita-pzu2k.fork2026.com, port: 18579, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇹 奥地利 VLess, server: qita-pzu2k.fork2026.com, port: 18580, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇪 爱尔兰 VLess, server: qita-pzu2k.fork2026.com, port: 18581, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 2793}, client-fingerprint: random, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇴 澳门 VLess, server: qita-pzu2k.fork2026.com, port: 18582, type: vless, tls: true, packet-encoding: xudp, uuid: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 9YtIyZE1mrU2PG6FW5Fbk4KgFEZZbbpIdj_l00Xogl0, short-id: 03c8}, client-fingerprint: random, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 01 AnyTLS 直连（联通|移动）, server: zhilian-jp01.fork2026.com, port: 2053, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 01 AnyTLS 直连, server: zhilian-sg01.fork2026.com, port: 2053, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 01 AnyTLS 直连【推荐】, server: zhilian-tw01.fork2026.com, port: 2053, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01 AnyTLS, server: at01-xhro2n.fork2026.com, port: 18611, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02 AnyTLS, server: at02-hzal1t.fork2026.com, port: 18611, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03 AnyTLS, server: at03-hlzp2o.fork2026.com, port: 18611, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 01 AnyTLS, server: at01-xhro2n.fork2026.com, port: 18621, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 02 AnyTLS, server: at02-hzal1t.fork2026.com, port: 18621, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 03 AnyTLS, server: at03-hlzp2o.fork2026.com, port: 18621, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 01 AnyTLS, server: at01-xhro2n.fork2026.com, port: 18631, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 02 AnyTLS, server: at02-hzal1t.fork2026.com, port: 18631, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 03 AnyTLS, server: at03-hlzp2o.fork2026.com, port: 18631, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 01 AnyTLS, server: at01-xhro2n.fork2026.com, port: 18641, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 02 AnyTLS, server: at02-hzal1t.fork2026.com, port: 18641, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 03 AnyTLS, server: at03-hlzp2o.fork2026.com, port: 18641, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 01 AnyTLS, server: at01-xhro2n.fork2026.com, port: 18651, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 02 AnyTLS, server: at02-hzal1t.fork2026.com, port: 18651, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 03 AnyTLS, server: at03-hlzp2o.fork2026.com, port: 18651, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18661, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18662, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18663, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18664, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18665, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18666, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18667, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18668, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇽 墨西哥 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18669, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇱 波兰 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18670, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇪 瑞典 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18671, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 西班牙 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18672, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 阿姆斯特丹 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18673, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇱 以色列 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18674, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇿🇦 南非 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18675, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18676, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇱 智利 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18677, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18678, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18679, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇹 奥地利 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18680, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇪 爱尔兰 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18681, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇴 澳门 AnyTLS, server: qita-pzu2k.fork2026.com, port: 18682, type: anytls, password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8511, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
   - {name: 🇭🇰 香港 02, server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8511, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
   - {name: 🇯🇵 日本 01, server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com, port: 8521, type: ss, cipher: aes-128-gcm, password: BwYMsUXk9gwb, udp: true}
@@ -67,47 +67,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -125,46 +135,46 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -186,7 +196,67 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
-      - 🎯 全球直连
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
   - name: 🌐 社交媒体
     type: select
     proxies:
@@ -198,48 +268,129 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
-      - 🎯 全球直连
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 📞 Talkatone
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -261,7 +412,68 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - 🎯 全球直连
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
   - name: 🤖 ChatGPT
     type: select
     proxies:
@@ -273,47 +485,129 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 🤖 Copilot
+    type: select
+    proxies:
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -335,47 +629,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -397,47 +701,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -459,47 +773,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -521,47 +845,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -583,47 +917,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -645,47 +989,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -707,47 +1061,57 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -769,48 +1133,58 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - 🎯 全球直连
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -833,47 +1207,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -896,47 +1280,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -953,57 +1347,6 @@ proxy-groups:
       - 🇼🇸 台湾节点
       - 🚀 手动选择
       - 🎯 全球直连
-      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
   - name: 🌎 国外媒体
     type: select
     proxies:
@@ -1015,47 +1358,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1071,54 +1424,63 @@ proxy-groups:
     proxies:
       - 🚀 手动选择
       - ♻️ 自动选择
-      - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1140,6 +1502,67 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
   - name: 🇬 谷歌服务
     type: select
     proxies:
@@ -1151,47 +1574,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1214,47 +1647,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1277,47 +1720,203 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 💾 OneDrive
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: 💳 PayPal
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1340,47 +1939,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1403,47 +2012,130 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+  - name: ⏬ PT站点
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
+      - 🚀 手动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1466,47 +2158,57 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1520,56 +2222,66 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - 🎯 全球直连
       - 🚀 手动选择
       - ♻️ 自动选择
-      - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
       - 🇼🇸 台湾节点
       - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇷🇺 俄罗斯节点
+      - 🌐 其他地区
+      - 🏠 家宽节点
+      - 🐢 低倍率节点
       - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
-      - 🇯🇵 日本 01 Vless直连
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
-      - 🇰🇷 韩国 Vless
-      - 🇨🇦 加拿大 VLess
-      - 🇷🇺 俄罗斯 VLess
-      - 🇩🇪 德国 VLess
-      - 🇫🇷 法国 VLess
-      - 🇬🇧 英国 VLess
-      - 🇦🇺 澳大利亚 VLess
-      - 🇮🇳 印度 VLess
-      - 🇲🇽 墨西哥 VLess
-      - 🇵🇱 波兰 Vless
-      - 🇸🇪 瑞典 VLess
-      - 🇪🇸 西班牙 VLess
-      - 🇳🇱 阿姆斯特丹 VLess
-      - 🇮🇱 以色列 VLess
-      - 🇿🇦 南非 VLess
-      - 🇧🇷 巴西 VLess
-      - 🇨🇱 智利 VLess
-      - 🇹🇷 土耳其 VLess
-      - 🇦🇷 阿根廷 VLess
-      - 🇦🇹 奥地利 VLess
-      - 🇮🇪 爱尔兰 VLess
-      - 🇲🇴 澳门 VLess
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
+      - 🇰🇷 韩国 AnyTLS
+      - 🇨🇦 加拿大 AnyTLS
+      - 🇷🇺 俄罗斯 AnyTLS
+      - 🇩🇪 德国 AnyTLS
+      - 🇫🇷 法国 AnyTLS
+      - 🇬🇧 英国 AnyTLS
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇹🇷 土耳其 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇯🇵 日本 01
@@ -1591,9 +2303,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 01 VLess
-      - 🇭🇰 香港 02 Vless
-      - 🇭🇰 香港 03 Vless
+      - 🇭🇰 香港 01 AnyTLS
+      - 🇭🇰 香港 02 AnyTLS
+      - 🇭🇰 香港 03 AnyTLS
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
   - name: 🇺🇸 美国节点
@@ -1602,9 +2314,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国 01 VLess
-      - 🇺🇸 美国 02 Vless
-      - 🇺🇸 美国 03 Vless
+      - 🇺🇸 美国 01 AnyTLS
+      - 🇺🇸 美国 02 AnyTLS
+      - 🇺🇸 美国 03 AnyTLS
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
   - name: 🇯🇵 日本节点
@@ -1613,10 +2325,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本 01 Vless直连
-      - 🇯🇵 日本 01 VLess
-      - 🇯🇵 日本 02 Vless
-      - 🇯🇵 日本 03 Vless
+      - 🇯🇵 日本 01 AnyTLS 直连（联通|移动）
+      - 🇯🇵 日本 01 AnyTLS
+      - 🇯🇵 日本 02 AnyTLS
+      - 🇯🇵 日本 03 AnyTLS
       - 🇯🇵 日本 01
       - 🇯🇵 日本 02
   - name: 🇸🇬 新加坡节点
@@ -1625,10 +2337,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡 01 Vless 直连
-      - 🇸🇬 新加坡 01 VLess
-      - 🇸🇬 新加坡 02 Vless
-      - 🇸🇬 新加坡 03 Vless
+      - 🇸🇬 新加坡 01 AnyTLS 直连
+      - 🇸🇬 新加坡 01 AnyTLS
+      - 🇸🇬 新加坡 02 AnyTLS
+      - 🇸🇬 新加坡 03 AnyTLS
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
   - name: 🇼🇸 台湾节点
@@ -1637,10 +2349,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 01 Vless 直连【推荐】
-      - 🇨🇳 台湾 01 VLess
-      - 🇨🇳 台湾 02 Vless
-      - 🇨🇳 台湾 03 Vless
+      - 🇨🇳 台湾 01 AnyTLS 直连【推荐】
+      - 🇨🇳 台湾 01 AnyTLS
+      - 🇨🇳 台湾 02 AnyTLS
+      - 🇨🇳 台湾 03 AnyTLS
       - 🇨🇳 台湾 01
       - 🇨🇳 台湾 02
   - name: 🇰🇷 韩国节点
@@ -1649,7 +2361,91 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国 Vless
+      - 🇰🇷 韩国 AnyTLS
+  - name: 🇨🇦 加拿大节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇦 加拿大 AnyTLS
+  - name: 🇬🇧 英国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇬🇧 英国 AnyTLS
+  - name: 🇫🇷 法国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇫🇷 法国 AnyTLS
+  - name: 🇩🇪 德国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇩🇪 德国 AnyTLS
+  - name: 🇳🇱 荷兰节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇳🇱 阿姆斯特丹 AnyTLS
+  - name: 🇹🇷 土耳其节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇹🇷 土耳其 AnyTLS
+  - name: 🇷🇺 俄罗斯节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇷🇺 俄罗斯 AnyTLS
+  - name: 🌐 其他地区
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - ！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！
+      - 🇦🇺 澳大利亚 AnyTLS
+      - 🇮🇳 印度 AnyTLS
+      - 🇲🇽 墨西哥 AnyTLS
+      - 🇵🇱 波兰 AnyTLS
+      - 🇸🇪 瑞典 AnyTLS
+      - 🇪🇸 西班牙 AnyTLS
+      - 🇮🇱 以色列 AnyTLS
+      - 🇿🇦 南非 AnyTLS
+      - 🇧🇷 巴西 AnyTLS
+      - 🇨🇱 智利 AnyTLS
+      - 🇦🇷 阿根廷 AnyTLS
+      - 🇦🇹 奥地利 AnyTLS
+      - 🇮🇪 爱尔兰 AnyTLS
+      - 🇲🇴 澳门 AnyTLS
+  - name: 🏠 家宽节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🐢 低倍率节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1668,7 +2464,10 @@ rules:
   - GEOSITE,category-public-tracker,🎯 全球直连
   - GEOSITE,category-communication,💬 即时通讯
   - GEOSITE,category-social-media-!cn,🌐 社交媒体
+  - GEOSITE,talkatone,📞 Talkatone
   - GEOSITE,openai,🤖 ChatGPT
+  - GEOSITE,onedrive,💾 OneDrive
+  - GEOSITE,bing,🤖 Copilot
   - GEOSITE,category-ai-!cn,🤖 AI服务
   - GEOSITE,github,🚀 GitHub
   - GEOSITE,category-speedtest,🚀 测速工具
@@ -1689,6 +2488,8 @@ rules:
   - GEOSITE,bahamut,📺 Bahamut
   - GEOSITE,category-games,🎮 游戏平台
   - GEOSITE,category-entertainment,🌎 国外媒体
+  - GEOSITE,category-pt,⏬ PT站点
+  - GEOSITE,paypal,💳 PayPal
   - GEOSITE,category-ecommerce,🛒 国外电商
   - GEOSITE,gfw,🚀 手动选择
   - GEOIP,telegram,💬 即时通讯,no-resolve
