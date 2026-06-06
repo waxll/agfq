@@ -1,0 +1,1678 @@
+#---------------------------------------------------#
+## 上次更新于：2026-05-23 12:37:09
+#---------------------------------------------------#
+
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  - name: 香港 01（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10001
+    udp: true
+  - name: 香港 02 （专线；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10002
+    udp: true
+  - name: 香港 03（专线；联通）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10003
+    udp: true
+  - name: 香港 04（专线；电信）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10004
+    udp: true
+  - name: 香港 05（专线；移动）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10005
+    udp: true
+  - name: 香港 06（专线；原生）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10006
+    udp: true
+  - name: 日本 01（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10007
+    udp: true
+  - name: 日本 02 （专线；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10008
+    udp: true
+  - name: 日本 03（专线；联通）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10009
+    udp: true
+  - name: 日本 04（专线；电信）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10010
+    udp: true
+  - name: 日本 05（专线；移动）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10011
+    udp: true
+  - name: 美国 02 （专线；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10012
+    udp: true
+  - name: 美国 03（专线；联通）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10013
+    udp: true
+  - name: 美国 04（专线；电信）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10014
+    udp: true
+  - name: 美国 05（专线；移动）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10015
+    udp: true
+  - name: 新加坡 01（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10016
+    udp: true
+  - name: 新加坡 02 （专线；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10017
+    udp: true
+  - name: 新加坡 03（专线；联通）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10018
+    udp: true
+  - name: 新加坡 04（专线；电信）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10019
+    udp: true
+  - name: 新加坡 05（专线；移动）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10020
+    udp: true
+  - name: 台湾 01（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10021
+    udp: true
+  - name: 台湾 02 （专线；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10022
+    udp: true
+  - name: 台湾 03（专线；联通）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10023
+    udp: true
+  - name: 台湾 04（专线；电信）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10024
+    udp: true
+  - name: 台湾 05（专线；移动）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10025
+    udp: true
+  - name: 台湾 06（专线；原生）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10026
+    udp: true
+  - name: 其他-韩国（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10027
+    udp: true
+  - name: 其他-加拿大（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10028
+    udp: true
+  - name: 其他-俄罗斯（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10029
+    udp: true
+  - name: 其他-德国（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10030
+    udp: true
+  - name: 其他-法国（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10031
+    udp: true
+  - name: 其他-英国（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10032
+    udp: true
+  - name: 其他-澳大利亚（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10033
+    udp: true
+  - name: 其他-印度（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10034
+    udp: true
+  - name: 其他-墨西哥（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10035
+    udp: true
+  - name: 其他-波兰（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10036
+    udp: true
+  - name: 其他-瑞典（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10037
+    udp: true
+  - name: 其他-西班牙（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10038
+    udp: true
+  - name: 其他-阿姆斯特丹（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10039
+    udp: true
+  - name: 其他-以色列（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10040
+    udp: true
+  - name: 其他-南非（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10041
+    udp: true
+  - name: 其他-巴西（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10042
+    udp: true
+  - name: 其他-智利（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10043
+    udp: true
+  - name: 其他-土耳其（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10044
+    udp: true
+  - name: 其他-阿根廷（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10045
+    udp: true
+  - name: 其他-奥地利（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10046
+    udp: true
+  - name: 其他-爱尔兰（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10047
+    udp: true
+  - name: 其他-澳门（公网；智能）-ninja
+    type: socks5
+    server: 0.0.0.0
+    port: 10048
+    udp: true
+  - name: '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
+    type: ss
+    server: 8.8.8.8
+    port: 8500
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: 官网：次元.net
+    type: ss
+    server: 8.8.8.8
+    port: 8500
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '日本 01 AnyTLS 直连（联通|移动）'
+    type: anytls
+    server: zhilian-jp01.fork2026.com
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '新加坡 01 AnyTLS 直连'
+    type: anytls
+    server: zhilian-sg01.fork2026.com
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '台湾 01 AnyTLS 直连【推荐】'
+    type: anytls
+    server: zhilian-tw01.fork2026.com
+    port: 2053
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '香港 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '香港 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '香港 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18611
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '日本 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '日本 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '日本 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18621
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '美国 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '美国 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '美国 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18631
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '新加坡 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '新加坡 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '新加坡 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18641
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '台湾 01 AnyTLS'
+    type: anytls
+    server: at01-xhro2n.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '台湾 02 AnyTLS'
+    type: anytls
+    server: at02-hzal1t.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '台湾 03 AnyTLS'
+    type: anytls
+    server: at03-hlzp2o.fork2026.com
+    port: 18651
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '韩国 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18661
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '加拿大 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18662
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '俄罗斯 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18663
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '德国 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18664
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '法国 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18665
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '英国 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18666
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '澳大利亚 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18667
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '印度 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18668
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '墨西哥 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18669
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '波兰 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18670
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '瑞典 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18671
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '西班牙 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18672
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '阿姆斯特丹 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18673
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '以色列 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18674
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '南非 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18675
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '巴西 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18676
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '智利 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18677
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '土耳其 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18678
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '阿根廷 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18679
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '奥地利 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18680
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '爱尔兰 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18681
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '澳门 AnyTLS'
+    type: anytls
+    server: qita-pzu2k.fork2026.com
+    port: 18682
+    password: 5832ded5-3cf3-3b0a-8ab8-37f891002b05
+    udp: true
+    sni: www.baidu.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+  - name: '香港 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8511
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '香港 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8511
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '日本 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8521
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '日本 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8521
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '美国 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8531
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '美国 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8531
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '新加坡 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8541
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '新加坡 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8541
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '台湾 01'
+    type: ss
+    server: cname01-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8551
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+  - name: '台湾 02'
+    type: ss
+    server: cname01a-njidwp5y5gbd7lbd.gastromyth2026.com
+    port: 8551
+    cipher: aes-128-gcm
+    password: BwYMsUXk9gwb
+    udp: false
+proxy-groups:
+  - name: "\U0001F343 Proxies"
+    type: select
+    proxies:
+      - 香港 01（公网；智能）-ninja
+      - 香港 02 （专线；智能）-ninja
+      - 香港 03（专线；联通）-ninja
+      - 香港 04（专线；电信）-ninja
+      - 香港 05（专线；移动）-ninja
+      - 香港 06（专线；原生）-ninja
+      - 日本 01（公网；智能）-ninja
+      - 日本 02 （专线；智能）-ninja
+      - 日本 03（专线；联通）-ninja
+      - 日本 04（专线；电信）-ninja
+      - 日本 05（专线；移动）-ninja
+      - 美国 02 （专线；智能）-ninja
+      - 美国 03（专线；联通）-ninja
+      - 美国 04（专线；电信）-ninja
+      - 美国 05（专线；移动）-ninja
+      - 新加坡 01（公网；智能）-ninja
+      - 新加坡 02 （专线；智能）-ninja
+      - 新加坡 03（专线；联通）-ninja
+      - 新加坡 04（专线；电信）-ninja
+      - 新加坡 05（专线；移动）-ninja
+      - 台湾 01（公网；智能）-ninja
+      - 台湾 02 （专线；智能）-ninja
+      - 台湾 03（专线；联通）-ninja
+      - 台湾 04（专线；电信）-ninja
+      - 台湾 05（专线；移动）-ninja
+      - 台湾 06（专线；原生）-ninja
+      - 其他-韩国（公网；智能）-ninja
+      - 其他-加拿大（公网；智能）-ninja
+      - 其他-俄罗斯（公网；智能）-ninja
+      - 其他-德国（公网；智能）-ninja
+      - 其他-法国（公网；智能）-ninja
+      - 其他-英国（公网；智能）-ninja
+      - 其他-澳大利亚（公网；智能）-ninja
+      - 其他-印度（公网；智能）-ninja
+      - 其他-墨西哥（公网；智能）-ninja
+      - 其他-波兰（公网；智能）-ninja
+      - 其他-瑞典（公网；智能）-ninja
+      - 其他-西班牙（公网；智能）-ninja
+      - 其他-阿姆斯特丹（公网；智能）-ninja
+      - 其他-以色列（公网；智能）-ninja
+      - 其他-南非（公网；智能）-ninja
+      - 其他-巴西（公网；智能）-ninja
+      - 其他-智利（公网；智能）-ninja
+      - 其他-土耳其（公网；智能）-ninja
+      - 其他-阿根廷（公网；智能）-ninja
+      - 其他-奥地利（公网；智能）-ninja
+      - 其他-爱尔兰（公网；智能）-ninja
+      - 其他-澳门（公网；智能）-ninja
+      - '⭐️ Auto'
+      - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
+      - 官网：次元.net
+      - '日本 01 AnyTLS 直连（联通|移动）'
+      - '新加坡 01 AnyTLS 直连'
+      - '台湾 01 AnyTLS 直连【推荐】'
+      - '香港 01 AnyTLS'
+      - '香港 02 AnyTLS'
+      - '香港 03 AnyTLS'
+      - '日本 01 AnyTLS'
+      - '日本 02 AnyTLS'
+      - '日本 03 AnyTLS'
+      - '美国 01 AnyTLS'
+      - '美国 02 AnyTLS'
+      - '美国 03 AnyTLS'
+      - '新加坡 01 AnyTLS'
+      - '新加坡 02 AnyTLS'
+      - '新加坡 03 AnyTLS'
+      - '台湾 01 AnyTLS'
+      - '台湾 02 AnyTLS'
+      - '台湾 03 AnyTLS'
+      - '韩国 AnyTLS'
+      - '加拿大 AnyTLS'
+      - '俄罗斯 AnyTLS'
+      - '德国 AnyTLS'
+      - '法国 AnyTLS'
+      - '英国 AnyTLS'
+      - '澳大利亚 AnyTLS'
+      - '印度 AnyTLS'
+      - '墨西哥 AnyTLS'
+      - '波兰 AnyTLS'
+      - '瑞典 AnyTLS'
+      - '西班牙 AnyTLS'
+      - '阿姆斯特丹 AnyTLS'
+      - '以色列 AnyTLS'
+      - '南非 AnyTLS'
+      - '巴西 AnyTLS'
+      - '智利 AnyTLS'
+      - '土耳其 AnyTLS'
+      - '阿根廷 AnyTLS'
+      - '奥地利 AnyTLS'
+      - '爱尔兰 AnyTLS'
+      - '澳门 AnyTLS'
+      - '香港 01'
+      - '香港 02'
+      - '日本 01'
+      - '日本 02'
+      - '美国 01'
+      - '美国 02'
+      - '新加坡 01'
+      - '新加坡 02'
+      - '台湾 01'
+      - '台湾 02'
+  - name: "\U0001F342 Domestic"
+    type: select
+    proxies:
+      - DIRECT
+  - name: '☁️ Others'
+    type: select
+    proxies:
+      - "\U0001F343 Proxies"
+      - DIRECT
+  - name: '⭐️ Auto'
+    type: url-test
+    proxies:
+      - 香港 01（公网；智能）-ninja
+      - 香港 02 （专线；智能）-ninja
+      - 香港 03（专线；联通）-ninja
+      - 香港 04（专线；电信）-ninja
+      - 香港 05（专线；移动）-ninja
+      - 香港 06（专线；原生）-ninja
+      - 日本 01（公网；智能）-ninja
+      - 日本 02 （专线；智能）-ninja
+      - 日本 03（专线；联通）-ninja
+      - 日本 04（专线；电信）-ninja
+      - 日本 05（专线；移动）-ninja
+      - 美国 02 （专线；智能）-ninja
+      - 美国 03（专线；联通）-ninja
+      - 美国 04（专线；电信）-ninja
+      - 美国 05（专线；移动）-ninja
+      - 新加坡 01（公网；智能）-ninja
+      - 新加坡 02 （专线；智能）-ninja
+      - 新加坡 03（专线；联通）-ninja
+      - 新加坡 04（专线；电信）-ninja
+      - 新加坡 05（专线；移动）-ninja
+      - 台湾 01（公网；智能）-ninja
+      - 台湾 02 （专线；智能）-ninja
+      - 台湾 03（专线；联通）-ninja
+      - 台湾 04（专线；电信）-ninja
+      - 台湾 05（专线；移动）-ninja
+      - 台湾 06（专线；原生）-ninja
+      - 其他-韩国（公网；智能）-ninja
+      - 其他-加拿大（公网；智能）-ninja
+      - 其他-俄罗斯（公网；智能）-ninja
+      - 其他-德国（公网；智能）-ninja
+      - 其他-法国（公网；智能）-ninja
+      - 其他-英国（公网；智能）-ninja
+      - 其他-澳大利亚（公网；智能）-ninja
+      - 其他-印度（公网；智能）-ninja
+      - 其他-墨西哥（公网；智能）-ninja
+      - 其他-波兰（公网；智能）-ninja
+      - 其他-瑞典（公网；智能）-ninja
+      - 其他-西班牙（公网；智能）-ninja
+      - 其他-阿姆斯特丹（公网；智能）-ninja
+      - 其他-以色列（公网；智能）-ninja
+      - 其他-南非（公网；智能）-ninja
+      - 其他-巴西（公网；智能）-ninja
+      - 其他-智利（公网；智能）-ninja
+      - 其他-土耳其（公网；智能）-ninja
+      - 其他-阿根廷（公网；智能）-ninja
+      - 其他-奥地利（公网；智能）-ninja
+      - 其他-爱尔兰（公网；智能）-ninja
+      - 其他-澳门（公网；智能）-ninja
+      - '！！！请尽快使用官方 Ninja客户端，除路由器与iOS！！！'
+      - 官网：次元.net
+      - '日本 01 AnyTLS 直连（联通|移动）'
+      - '新加坡 01 AnyTLS 直连'
+      - '台湾 01 AnyTLS 直连【推荐】'
+      - '香港 01 AnyTLS'
+      - '香港 02 AnyTLS'
+      - '香港 03 AnyTLS'
+      - '日本 01 AnyTLS'
+      - '日本 02 AnyTLS'
+      - '日本 03 AnyTLS'
+      - '美国 01 AnyTLS'
+      - '美国 02 AnyTLS'
+      - '美国 03 AnyTLS'
+      - '新加坡 01 AnyTLS'
+      - '新加坡 02 AnyTLS'
+      - '新加坡 03 AnyTLS'
+      - '台湾 01 AnyTLS'
+      - '台湾 02 AnyTLS'
+      - '台湾 03 AnyTLS'
+      - '韩国 AnyTLS'
+      - '加拿大 AnyTLS'
+      - '俄罗斯 AnyTLS'
+      - '德国 AnyTLS'
+      - '法国 AnyTLS'
+      - '英国 AnyTLS'
+      - '澳大利亚 AnyTLS'
+      - '印度 AnyTLS'
+      - '墨西哥 AnyTLS'
+      - '波兰 AnyTLS'
+      - '瑞典 AnyTLS'
+      - '西班牙 AnyTLS'
+      - '阿姆斯特丹 AnyTLS'
+      - '以色列 AnyTLS'
+      - '南非 AnyTLS'
+      - '巴西 AnyTLS'
+      - '智利 AnyTLS'
+      - '土耳其 AnyTLS'
+      - '阿根廷 AnyTLS'
+      - '奥地利 AnyTLS'
+      - '爱尔兰 AnyTLS'
+      - '澳门 AnyTLS'
+      - '香港 01'
+      - '香港 02'
+      - '日本 01'
+      - '日本 02'
+      - '美国 01'
+      - '美国 02'
+      - '新加坡 01'
+      - '新加坡 02'
+      - '台湾 01'
+      - '台湾 02'
+    url: 'http://www.gstatic.com/generate_204'
+    interval: '28800'
+rules:
+  # 官网
+  - "DOMAIN-KEYWORD,cylink,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,次元,\U0001F343 Proxies"
+  # (Global_TV)
+  # > ABC
+  - "DOMAIN-SUFFIX,edgedatg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,go.com,\U0001F343 Proxies"
+  # > AbemaTV
+  - "DOMAIN,linear-abematv.akamaized.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,abema.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,abema.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,akamaized.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ameba.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hayabusa.io,\U0001F343 Proxies"
+  # > Amazon Prime Video
+  - "DOMAIN-SUFFIX,aiv-cdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,amazonaws.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,amazonvideo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,llnwd.net,\U0001F343 Proxies"
+  # > Bahamut
+  - "DOMAIN-SUFFIX,bahamut.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gamer.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hinet.net,\U0001F343 Proxies"
+  # > BBC
+  - "DOMAIN-KEYWORD,bbcfmt,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,co.uk,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,uk-live,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbc.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbc.co.uk,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbc.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbci.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbci.co.uk,\U0001F343 Proxies"
+  # > CHOCO TV
+  - "DOMAIN-SUFFIX,chocotv.com.tw,\U0001F343 Proxies"
+  # > Epicgames
+  - "DOMAIN-KEYWORD,epicgames,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,helpshift.com,\U0001F343 Proxies"
+  # > Fox+
+  - "DOMAIN-KEYWORD,foxplus,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,config.fox.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,emome.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fox.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,foxdcg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,foxnow.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,foxplus.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,foxplay.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ipinfo.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mstage.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,now.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,theplatform.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,urlload.net,\U0001F343 Proxies"
+  # > HBO && HBO Go
+  - "DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hbo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hboasia.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hbogo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hbogoasia.hk,\U0001F343 Proxies"
+  # > Hulu
+  - "DOMAIN-SUFFIX,happyon.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hulu.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,huluim.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hulustream.com,\U0001F343 Proxies"
+  # > Imkan
+  - "DOMAIN-SUFFIX,imkan.tv,\U0001F343 Proxies"
+  # > JOOX
+  - "DOMAIN-SUFFIX,joox.com,\U0001F343 Proxies"
+  # > MytvSUPER
+  - "DOMAIN-KEYWORD,nowtv100,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,rthklive,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mytvsuper.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tvb.com,\U0001F343 Proxies"
+  # > Netflix
+  - "DOMAIN-SUFFIX,netflix.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,netflix.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nflxext.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nflximg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nflximg.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nflxso.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nflxvideo.net,\U0001F343 Proxies"
+  # > Pandora
+  - "DOMAIN-SUFFIX,pandora.com,\U0001F343 Proxies"
+  # > Sky GO
+  - "DOMAIN-SUFFIX,sky.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,skygo.co.nz,\U0001F343 Proxies"
+  # > Spotify
+  - "DOMAIN-KEYWORD,spotify,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,scdn.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,spoti.fi,\U0001F343 Proxies"
+  # > viuTV
+  - "DOMAIN-SUFFIX,viu.tv,\U0001F343 Proxies"
+  # > Youtube
+  - "DOMAIN-KEYWORD,youtube,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,googlevideo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gvt2.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,youtu.be,\U0001F343 Proxies"
+  # (Asian_TV)
+  # > Bilibili
+  - "DOMAIN-KEYWORD,bilibili,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,acg.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,acgvideo.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,b23.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,biliapi.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,biliapi.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,bilibili.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,biligame.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,biligame.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,hdslb.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,im9.com,\U0001F342 Domestic"
+  # > IQIYI
+  - "DOMAIN-KEYWORD,qiyi,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,qy.net,\U0001F342 Domestic"
+  # > letv
+  - "DOMAIN-SUFFIX,api.mob.app.letv.com,\U0001F342 Domestic"
+  # > NeteaseMusic
+  - "DOMAIN-SUFFIX,163yun.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,music.126.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,music.163.com,\U0001F342 Domestic"
+  # > Tencent Video
+  - "DOMAIN-SUFFIX,vv.video.qq.com,\U0001F342 Domestic"
+  # China Area Network
+  # > Microsoft
+  - "DOMAIN-SUFFIX,microsoft.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,windows.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,sfx.ms,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,sharepoint.com,\U0001F342 Domestic"
+  - "DOMAIN-KEYWORD,officecdn,\U0001F342 Domestic"
+  # > Blizzard
+  - "DOMAIN-SUFFIX,blizzard.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,battle.net,\U0001F342 Domestic"
+  - "DOMAIN,blzddist1-a.akamaihd.net,\U0001F342 Domestic"
+  # > Tencent
+  #USER-AGENT,MicroMessenger%20Client,🍂 Domestic
+  #USER-AGENT,WeChat*,🍂 Domestic
+  - "DOMAIN-SUFFIX,qq.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,qpic.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,tencent.com,\U0001F342 Domestic"
+  # > Alibaba
+  - "DOMAIN-SUFFIX,alibaba.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,alicdn.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,amap.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,dingtalk.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,taobao.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,tmall.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ykimg.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,youku.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,xiami.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,xiami.net,\U0001F342 Domestic"
+  # > NetEase
+  - "DOMAIN-SUFFIX,163.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,126.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,163yun.com,\U0001F342 Domestic"
+  # > Sohu
+  - "DOMAIN-SUFFIX,sohu.com.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,itc.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,sohu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,v-56.com,\U0001F342 Domestic"
+  # > Sina
+  - "DOMAIN-SUFFIX,weibo.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,weibo.cn,\U0001F342 Domestic"
+  # > JD
+  - "DOMAIN-SUFFIX,jd.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,jd.hk,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,360buyimg.com,\U0001F342 Domestic"
+  # > MI
+  - "DOMAIN-SUFFIX,duokan.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,mi-img.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,mifile.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,xiaomi.com,\U0001F342 Domestic"
+  # > bilibili
+  - "DOMAIN-SUFFIX,acgvideo.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,bilibili.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,hdslb.com,\U0001F342 Domestic"
+  # > iQiyi
+  - "DOMAIN-SUFFIX,iqiyi.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,iqiyipic.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,71.am.com,\U0001F342 Domestic"
+  # > HunanTV
+  - "DOMAIN-SUFFIX,hitv.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,mgtv.com,\U0001F342 Domestic"
+  # > Meitu
+  - "DOMAIN-SUFFIX,meitu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,meitudata.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,meipai.com,\U0001F342 Domestic"
+  # > YYeTs
+  - "DOMAIN-SUFFIX,zmzapi.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,zimuzu.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,zmzfile.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,zmzapi.net,\U0001F342 Domestic"
+  # > 蛋蛋赞
+  - "DOMAIN-SUFFIX,baduziyuan.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,com-hs-hkdy.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,czybjz.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,dandanzan.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,fjhps.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,kuyunbo.club,\U0001F342 Domestic"
+  # > Baidu
+  - "DOMAIN-SUFFIX,baidu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,baidubcr.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,bdstatic.com,\U0001F342 Domestic"
+  # > ChinaNet
+  - "DOMAIN-SUFFIX,189.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,21cn.com,\U0001F342 Domestic"
+  # > ByteDance
+  - "DOMAIN-SUFFIX,bytecdn.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,pstatp.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,snssdk.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,toutiao.com,\U0001F342 Domestic"
+  # > Content Delivery Network
+  # > Akamai
+  - "DOMAIN-SUFFIX,akadns.net,\U0001F342 Domestic"
+  # - DOMAIN-SUFFIX,akamai.net,🍂 Domestic
+  # - DOMAIN-SUFFIX,akamaiedge.net,🍂 Domestic
+  # - DOMAIN-SUFFIX,akamaihd.net,🍂 Domestic
+  # - DOMAIN-SUFFIX,akamaistream.net,🍂 Domestic
+  # - DOMAIN-SUFFIX,akamaized.net,🍂 Domestic
+  # > ChinaNetCenter
+  - "DOMAIN-SUFFIX,chinanetcenter.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,wangsu.com,\U0001F342 Domestic"
+  # > IP Query
+  - "DOMAIN-SUFFIX,ipip.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ip.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ip.la,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ip-cdn.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ipv6-test.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,test-ipv6.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,whatismyip.com,\U0001F342 Domestic"
+  - "DOMAIN,ip.bjango.com,\U0001F342 Domestic"
+  # > Other
+  - "DOMAIN-SUFFIX,40017.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,broadcasthe.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cailianpress.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,chdbits.co,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,chushou.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cmbchina.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cmbimg.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cmct.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cmvideo.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,cnlang.org,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,doubanio.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,douyu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,douyucdn.cn,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,dxycdn.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,hicloud.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,hdchina.org,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,hdcmct.org,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ithome.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,kkmh.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ksosoft.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,maoyun.tv,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,meituan.net,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,mobike.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,mubu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,myzaker.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ourbits.club,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,passthepopcorn.me,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,paypal.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,paypalobjects.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,privatehd.to,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,redacted.ch,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,ruguoapp.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,smzdm.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,sogou.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,teamviewer.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,totheglory.im,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,udacity.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,xmcdn.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,yangkeduo.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,zhihu.com,\U0001F342 Domestic"
+  - "DOMAIN-SUFFIX,zhimg.com,\U0001F342 Domestic"
+  #USER-AGENT,NeteaseMusic*,🍂 Domestic
+  #USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,🍂 Domestic
+
+  # (DNS Cache Pollution Protection)
+  # > Google
+  - "DOMAIN-SUFFIX,appspot.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,blogger.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,getoutline.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gvt0.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gvt1.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gvt3.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,google,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,blogspot,\U0001F343 Proxies"
+  # > Facebook
+  - "DOMAIN-SUFFIX,cdninstagram.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fb.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fb.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fbaddins.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fbcdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fbsbx.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fbworkmail.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,instagram.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,m.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,messenger.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,oculus.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,oculuscdn.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,rocksdb.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,whatsapp.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,whatsapp.net,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,facebook,\U0001F343 Proxies"
+  # > Twitter
+  - "DOMAIN-SUFFIX,pscp.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,periscope.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,t.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,twimg.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,twimg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,twitpic.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vine.co,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,twitter,\U0001F343 Proxies"
+  # > Telegram
+  - "DOMAIN-SUFFIX,t.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tdesktop.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,telegra.ph,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,telegram.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,telegram.org,\U0001F343 Proxies"
+  # > Line
+  - "DOMAIN-SUFFIX,line.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,line-apps.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,line-scdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,naver.jp,\U0001F343 Proxies"
+  # > Other
+  - "DOMAIN-SUFFIX,4shared.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,881903.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,abc.net.au,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,abebooks.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,amazon.co.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apigee.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apk-dl.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apkmirror.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apkmonk.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apkpure.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,aptoide.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,archive.is,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,archive.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,arte.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ask.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,avgle.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,badoo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bandwagonhost.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bbc.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,behance.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bibox.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,biggo.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,binance.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bitcointalk.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bitfinex.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bitmex.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bit-z.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bloglovin.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bloomberg.cn,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bloomberg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,book.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,booklive.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,books.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,box.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,brookings.edu,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,businessinsider.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bwh1.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,castbox.fm,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cbc.ca,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cdw.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,change.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ck101.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,clarionproject.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,clyp.it,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cna.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,comparitech.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,conoha.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,crucial.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cts.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cw.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cyberctm.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dailymotion.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dailyview.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,daum.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,daumcdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dcard.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,deepdiscount.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,deezer.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,depositphotos.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,disconnect.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,discordapp.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,discordapp.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,disqus.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dns2go.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dropbox.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dropboxusercontent.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,duckduckgo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dw.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dynu.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,earthcam.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ebookservice.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,economist.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,edgecastcdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,edu,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,elpais.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,enanyang.my,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,euronews.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,feedly.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,files.wordpress.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,flickr.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,flitto.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,foreignpolicy.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,friday.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gate.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,getlantern.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,getsync.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,\U0001F343 Proxiesvoices.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,goo.ne.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,goodreads.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gov.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gumroad.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hbg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hightail.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hk01.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hkbf.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hkbookcity.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hkej.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hket.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hkgolden.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hootsuite.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hudson.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,huobi.pro,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,initiummall.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ipfs.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,issuu.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,japantimes.co.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,jiji.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,jinx.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,jkforum.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,joinmastodon.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,kakao.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,lihkg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,live.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mail.ru,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,matters.news,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,medium.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mega.nz,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mil,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,mobile01.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,naver.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nikkei.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nofile.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,now.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nyt.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytchina.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytcn.me,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytco.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytimes.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytimg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytlog.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nytstyle.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ok.ru,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,okex.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,pcloud.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,pinimg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,pixiv.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,pornhub.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,pureapk.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,quora.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,quoracdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,rakuten.co.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,reddit.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,redditmedia.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,resilio.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,reuters.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,scmp.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,scribd.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,seatguru.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,shadowsocks.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,slideshare.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,soundcloud.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,startpage.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,steemit.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,t66y.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,teco-hk.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,teco-mo.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,teddysun.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,theinitium.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tineye.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,torproject.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tumblr.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,turbobit.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,twitch.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,udn.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,unseen.is,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,upmedia.mg,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,uptodown.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ustream.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,uwants.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,v2ray.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,viber.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,videopress.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vimeo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,voxer.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vzw.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,w3schools.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wattpad.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,whoer.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wikimapia.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wikipedia.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wire.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,worldcat.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wsj.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wsj.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,xboxlive.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,xvideos.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yahoo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yesasia.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yes-news.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yomiuri.co.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,you-get.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,zb.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,zello.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,zeronet.io,\U0001F343 Proxies"
+  - "DOMAIN,cdn-images.mailchimp.com,\U0001F343 Proxies"
+  - "DOMAIN,id.heroku.com,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,github,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,jav,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,pinterest,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,porn,\U0001F343 Proxies"
+  - "DOMAIN-KEYWORD,wikileaks,\U0001F343 Proxies"
+  # (Region-Restricted Access Denied)
+  - "DOMAIN-SUFFIX,apartmentratings.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,apartments.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bankmobilevibe.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bing.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,booktopia.com.au,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,centauro.com.br,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,clearsurance.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,costco.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,crackle.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,depositphotos.cn,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dish.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dmm.co.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dmm.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dnvod.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,esurance.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,extmatrix.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fastpic.ru,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,flipboard.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fnac.be,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fnac.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,funkyimg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,fxnetworks.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gettyimages.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,jcpenney.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,kknews.cc,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nationwide.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nbc.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nordstrom.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nordstromimage.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,nordstromrack.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,read01.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,superpages.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,target.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,thinkgeek.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tracfone.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,uploader.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vevo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,viu.tv,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vk.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,vsco.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,xfinity.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,zattoo.com,\U0001F343 Proxies"
+  - "DOMAIN,abc.com,\U0001F343 Proxies"
+  - "DOMAIN,abc.go.com,\U0001F343 Proxies"
+  - "DOMAIN,abc.net.au,\U0001F343 Proxies"
+  - "DOMAIN,wego.here.com,\U0001F343 Proxies"
+  #USER-AGENT,Roam*,🍃 Proxies
+
+  # (The Most Popular Sites)
+  # > Apple
+  # > Apple URL Shortener
+  - "DOMAIN-SUFFIX,appsto.re,\U0001F343 Proxies"
+  # > TestFlight
+  - "DOMAIN,beta.itunes.apple.com,\U0001F343 Proxies"
+  # > iBooks Store download
+  - "DOMAIN,books.itunes.apple.com,\U0001F343 Proxies"
+  # > iTunes Store Moveis Trailers
+  - "DOMAIN,hls.itunes.apple.com,\U0001F343 Proxies"
+  # App Store Preview
+  - "DOMAIN,itunes.apple.com,\U0001F343 Proxies"
+  # > Spotlight
+  - "DOMAIN,api-glb-sea.smoot.apple.com,\U0001F343 Proxies"
+  # > Dictionary
+  - "DOMAIN,lookup-api.apple.com,\U0001F343 Proxies"
+  #PROCESS-NAME,LookupViewService,🍃 Proxies
+  # > Google
+  - "DOMAIN-SUFFIX,abc.xyz,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,android.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,androidify.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dialogflow.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,autodraw.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,capitalg.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,certificate-transparency.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,chrome.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,chromeexperiments.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,chromestatus.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,chromium.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,creativelab5.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,debug.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,deepmind.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,firebaseio.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,getmdl.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ggpht.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gmail.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gmodules.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,godoc.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,golang.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gstatic.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gv.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gwtproject.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,itasoftware.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,madewithcode.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,material.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,polymer-project.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,admin.recaptcha.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,recaptcha.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,shattered.io,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,synergyse.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tensorflow.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tiltbrush.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,waveprotocol.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,waymo.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,webmproject.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,webrtc.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,whatbrowser.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,widevine.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,x.company,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,youtu.be,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yt.be,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ytimg.com,\U0001F343 Proxies"
+  # > Steam
+  - DOMAIN,media.steampowered.com,☁️ Others
+  - DOMAIN,store.steampowered.com,☁️ Others
+  - DOMAIN,api.steampowered.com,☁️ Others
+  - DOMAIN-SUFFIX,steamcommunity.com,☁️ Others
+  - "DOMAIN-SUFFIX,steampowered.com,\U0001F342 Domestic"
+  # > Other
+  - "DOMAIN-SUFFIX,0rz.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,4bluestones.biz,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,9bis.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,allconnected.co,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,amazonaws.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,aol.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bcc.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bit.ly,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,bitshare.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,blog.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,blogimg.jp,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,blogtd.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,broadcast.co.nz,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,camfrog.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cfos.de,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,citypopulation.de,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cloudfront.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ctitv.com.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cuhk.edu.hk,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,cusu.hk,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,discuss.com.hk,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,dropboxapi.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,edditstatic.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,flickriver.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,focustaiwan.tw,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,free.fr,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ftchinese.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gigacircle.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,gov,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hk-pub.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hosting.co.uk,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,hwcdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,jtvnw.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,linksalpha.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,manyvids.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,myactimes.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,newsblur.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,now.im,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,redditlist.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,signal.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,sparknotes.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,streetvoice.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,ttvnw.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,tv.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,twitchcdn.net,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,typepad.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,udnbkk.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,whispersystems.org,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wikia.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wn.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,wolframalpha.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,x-art.com,\U0001F343 Proxies"
+  - "DOMAIN-SUFFIX,yimg.com,\U0001F343 Proxies"
+  - DOMAIN-SUFFIX,linkedin.com,☁️ Others
+  # Local Area Network
+  - DOMAIN-KEYWORD,announce,DIRECT
+  - DOMAIN-KEYWORD,torrent,DIRECT
+  - DOMAIN-KEYWORD,tracker,DIRECT
+  - DOMAIN-SUFFIX,smtp,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  # > IQIYI
+  - "IP-CIDR,101.227.0.0/16,\U0001F342 Domestic"
+  - "IP-CIDR,101.224.0.0/13,\U0001F342 Domestic"
+  - "IP-CIDR,119.176.0.0/12,\U0001F342 Domestic"
+  # > Youku
+  - "IP-CIDR,106.11.0.0/16,\U0001F342 Domestic"
+  # > Telegram
+  - "IP-CIDR,67.198.55.0/24,\U0001F343 Proxies"
+  - "IP-CIDR,91.108.4.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,91.108.8.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,91.108.12.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,91.108.16.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,91.108.56.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,109.239.140.0/24,\U0001F343 Proxies"
+  - "IP-CIDR,149.154.160.0/20,\U0001F343 Proxies"
+  - "IP-CIDR,205.172.60.0/22,\U0001F343 Proxies"
+  # (Extra IP-CIRD)
+  # > Google
+  - "IP-CIDR,35.190.247.0/24,\U0001F343 Proxies"
+  - "IP-CIDR,64.233.160.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,66.102.0.0/20,\U0001F343 Proxies"
+  - "IP-CIDR,66.249.80.0/20,\U0001F343 Proxies"
+  - "IP-CIDR,72.14.192.0/18,\U0001F343 Proxies"
+  - "IP-CIDR,74.125.0.0/16,\U0001F343 Proxies"
+  - "IP-CIDR,108.177.8.0/21,\U0001F343 Proxies"
+  - "IP-CIDR,172.217.0.0/16,\U0001F343 Proxies"
+  - "IP-CIDR,173.194.0.0/16,\U0001F343 Proxies"
+  - "IP-CIDR,209.85.128.0/17,\U0001F343 Proxies"
+  - "IP-CIDR,216.58.192.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,216.239.32.0/19,\U0001F343 Proxies"
+  # > Facebook
+  - "IP-CIDR,31.13.24.0/21,\U0001F343 Proxies"
+  - "IP-CIDR,31.13.64.0/18,\U0001F343 Proxies"
+  - "IP-CIDR,45.64.40.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,66.220.144.0/20,\U0001F343 Proxies"
+  - "IP-CIDR,69.63.176.0/20,\U0001F343 Proxies"
+  - "IP-CIDR,69.171.224.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,74.119.76.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,103.4.96.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,129.134.0.0/17,\U0001F343 Proxies"
+  - "IP-CIDR,157.240.0.0/17,\U0001F343 Proxies"
+  - "IP-CIDR,173.252.64.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,173.252.96.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,179.60.192.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,185.60.216.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,204.15.20.0/22,\U0001F343 Proxies"
+  # > Twitter
+  - "IP-CIDR,69.195.160.0/19,\U0001F343 Proxies"
+  - "IP-CIDR,104.244.42.0/21,\U0001F343 Proxies"
+  - "IP-CIDR,192.133.76.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,199.16.156.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,199.59.148.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,199.96.56.0/21,\U0001F343 Proxies"
+  - "IP-CIDR,202.160.128.0/22,\U0001F343 Proxies"
+  - "IP-CIDR,209.237.192.0/19,\U0001F343 Proxies"
+  # GeoIP China
+  - "GEOIP,CN,\U0001F342 Domestic"
+  - MATCH,☁️ Others
