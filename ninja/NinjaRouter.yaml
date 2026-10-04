@@ -1,0 +1,293 @@
+proxies:
+    - name: 香港 01（公网；智能）-ninja
+      port: 10097
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 香港 02 （专线；智能）-ninja
+      port: 10098
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 香港 03（专线；联通）-ninja
+      port: 10099
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 香港 04（专线；电信）-ninja
+      port: 10100
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 香港 05（专线；移动）-ninja
+      port: 10101
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 香港 06（专线；原生）-ninja
+      port: 10102
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 日本 01（公网；智能）-ninja
+      port: 10103
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 日本 02 （专线；智能）-ninja
+      port: 10104
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 日本 03（专线；联通）-ninja
+      port: 10105
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 日本 04（专线；电信）-ninja
+      port: 10106
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 日本 05（专线；移动）-ninja
+      port: 10107
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 美国 02 （专线；智能）-ninja
+      port: 10108
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 美国 03（专线；联通）-ninja
+      port: 10109
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 美国 04（专线；电信）-ninja
+      port: 10110
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 美国 05（专线；移动）-ninja
+      port: 10111
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 新加坡 01（公网；智能）-ninja
+      port: 10112
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 新加坡 02 （专线；智能）-ninja
+      port: 10113
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 新加坡 03（专线；联通）-ninja
+      port: 10114
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 新加坡 04（专线；电信）-ninja
+      port: 10115
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 新加坡 05（专线；移动）-ninja
+      port: 10116
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 01（公网；智能）-ninja
+      port: 10117
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 02 （专线；智能）-ninja
+      port: 10118
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 03（专线；联通）-ninja
+      port: 10119
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 04（专线；电信）-ninja
+      port: 10120
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 05（专线；移动）-ninja
+      port: 10121
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 台湾 06（专线；原生）-ninja
+      port: 10122
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-韩国（公网；智能）-ninja
+      port: 10123
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-加拿大（公网；智能）-ninja
+      port: 10124
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-俄罗斯（公网；智能）-ninja
+      port: 10125
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-德国（公网；智能）-ninja
+      port: 10126
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-法国（公网；智能）-ninja
+      port: 10127
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-英国（公网；智能）-ninja
+      port: 10128
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-澳大利亚（公网；智能）-ninja
+      port: 10129
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-印度（公网；智能）-ninja
+      port: 10130
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-墨西哥（公网；智能）-ninja
+      port: 10131
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-波兰（公网；智能）-ninja
+      port: 10132
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-瑞典（公网；智能）-ninja
+      port: 10133
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-西班牙（公网；智能）-ninja
+      port: 10134
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-阿姆斯特丹（公网；智能）-ninja
+      port: 10135
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-以色列（公网；智能）-ninja
+      port: 10136
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-南非（公网；智能）-ninja
+      port: 10137
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-巴西（公网；智能）-ninja
+      port: 10138
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-智利（公网；智能）-ninja
+      port: 10139
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-土耳其（公网；智能）-ninja
+      port: 10140
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-阿根廷（公网；智能）-ninja
+      port: 10141
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-奥地利（公网；智能）-ninja
+      port: 10142
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-爱尔兰（公网；智能）-ninja
+      port: 10143
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+    - name: 其他-澳门（公网；智能）-ninja
+      port: 10144
+      server: 127.0.0.1
+      type: socks5
+      udp: true
+proxy-groups:
+    - name: Ninja转接
+      proxies:
+        - 香港 01（公网；智能）-ninja
+        - 香港 02 （专线；智能）-ninja
+        - 香港 03（专线；联通）-ninja
+        - 香港 04（专线；电信）-ninja
+        - 香港 05（专线；移动）-ninja
+        - 香港 06（专线；原生）-ninja
+        - 日本 01（公网；智能）-ninja
+        - 日本 02 （专线；智能）-ninja
+        - 日本 03（专线；联通）-ninja
+        - 日本 04（专线；电信）-ninja
+        - 日本 05（专线；移动）-ninja
+        - 美国 02 （专线；智能）-ninja
+        - 美国 03（专线；联通）-ninja
+        - 美国 04（专线；电信）-ninja
+        - 美国 05（专线；移动）-ninja
+        - 新加坡 01（公网；智能）-ninja
+        - 新加坡 02 （专线；智能）-ninja
+        - 新加坡 03（专线；联通）-ninja
+        - 新加坡 04（专线；电信）-ninja
+        - 新加坡 05（专线；移动）-ninja
+        - 台湾 01（公网；智能）-ninja
+        - 台湾 02 （专线；智能）-ninja
+        - 台湾 03（专线；联通）-ninja
+        - 台湾 04（专线；电信）-ninja
+        - 台湾 05（专线；移动）-ninja
+        - 台湾 06（专线；原生）-ninja
+        - 其他-韩国（公网；智能）-ninja
+        - 其他-加拿大（公网；智能）-ninja
+        - 其他-俄罗斯（公网；智能）-ninja
+        - 其他-德国（公网；智能）-ninja
+        - 其他-法国（公网；智能）-ninja
+        - 其他-英国（公网；智能）-ninja
+        - 其他-澳大利亚（公网；智能）-ninja
+        - 其他-印度（公网；智能）-ninja
+        - 其他-墨西哥（公网；智能）-ninja
+        - 其他-波兰（公网；智能）-ninja
+        - 其他-瑞典（公网；智能）-ninja
+        - 其他-西班牙（公网；智能）-ninja
+        - 其他-阿姆斯特丹（公网；智能）-ninja
+        - 其他-以色列（公网；智能）-ninja
+        - 其他-南非（公网；智能）-ninja
+        - 其他-巴西（公网；智能）-ninja
+        - 其他-智利（公网；智能）-ninja
+        - 其他-土耳其（公网；智能）-ninja
+        - 其他-阿根廷（公网；智能）-ninja
+        - 其他-奥地利（公网；智能）-ninja
+        - 其他-爱尔兰（公网；智能）-ninja
+        - 其他-澳门（公网；智能）-ninja
+      type: select
