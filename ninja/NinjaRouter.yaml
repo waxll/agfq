@@ -1,241 +1,241 @@
 proxies:
     - name: 香港 01（公网；智能）-ninja
-      port: 10097
+      port: 10001
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 香港 02 （专线；智能）-ninja
-      port: 10098
+      port: 10002
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 香港 03（专线；联通）-ninja
-      port: 10099
+      port: 10003
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 香港 04（专线；电信）-ninja
-      port: 10100
+      port: 10004
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 香港 05（专线；移动）-ninja
-      port: 10101
+      port: 10005
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 香港 06（专线；原生）-ninja
-      port: 10102
+      port: 10006
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 日本 01（公网；智能）-ninja
-      port: 10103
+      port: 10007
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 日本 02 （专线；智能）-ninja
-      port: 10104
+      port: 10008
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 日本 03（专线；联通）-ninja
-      port: 10105
+      port: 10009
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 日本 04（专线；电信）-ninja
-      port: 10106
+      port: 10010
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 日本 05（专线；移动）-ninja
-      port: 10107
+      port: 10011
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 美国 02 （专线；智能）-ninja
-      port: 10108
+      port: 10012
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 美国 03（专线；联通）-ninja
-      port: 10109
+      port: 10013
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 美国 04（专线；电信）-ninja
-      port: 10110
+      port: 10014
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 美国 05（专线；移动）-ninja
-      port: 10111
+      port: 10015
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 新加坡 01（公网；智能）-ninja
-      port: 10112
+      port: 10016
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 新加坡 02 （专线；智能）-ninja
-      port: 10113
+      port: 10017
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 新加坡 03（专线；联通）-ninja
-      port: 10114
+      port: 10018
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 新加坡 04（专线；电信）-ninja
-      port: 10115
+      port: 10019
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 新加坡 05（专线；移动）-ninja
-      port: 10116
+      port: 10020
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 01（公网；智能）-ninja
-      port: 10117
+      port: 10021
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 02 （专线；智能）-ninja
-      port: 10118
+      port: 10022
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 03（专线；联通）-ninja
-      port: 10119
+      port: 10023
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 04（专线；电信）-ninja
-      port: 10120
+      port: 10024
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 05（专线；移动）-ninja
-      port: 10121
+      port: 10025
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 台湾 06（专线；原生）-ninja
-      port: 10122
+      port: 10026
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-韩国（公网；智能）-ninja
-      port: 10123
+      port: 10027
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-加拿大（公网；智能）-ninja
-      port: 10124
+      port: 10028
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-俄罗斯（公网；智能）-ninja
-      port: 10125
+      port: 10029
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-德国（公网；智能）-ninja
-      port: 10126
+      port: 10030
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-法国（公网；智能）-ninja
-      port: 10127
+      port: 10031
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-英国（公网；智能）-ninja
-      port: 10128
+      port: 10032
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-澳大利亚（公网；智能）-ninja
-      port: 10129
+      port: 10033
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-印度（公网；智能）-ninja
-      port: 10130
+      port: 10034
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-墨西哥（公网；智能）-ninja
-      port: 10131
+      port: 10035
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-波兰（公网；智能）-ninja
-      port: 10132
+      port: 10036
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-瑞典（公网；智能）-ninja
-      port: 10133
+      port: 10037
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-西班牙（公网；智能）-ninja
-      port: 10134
+      port: 10038
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-阿姆斯特丹（公网；智能）-ninja
-      port: 10135
+      port: 10039
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-以色列（公网；智能）-ninja
-      port: 10136
+      port: 10040
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-南非（公网；智能）-ninja
-      port: 10137
+      port: 10041
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-巴西（公网；智能）-ninja
-      port: 10138
+      port: 10042
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-智利（公网；智能）-ninja
-      port: 10139
+      port: 10043
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-土耳其（公网；智能）-ninja
-      port: 10140
+      port: 10044
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-阿根廷（公网；智能）-ninja
-      port: 10141
+      port: 10045
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-奥地利（公网；智能）-ninja
-      port: 10142
+      port: 10046
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-爱尔兰（公网；智能）-ninja
-      port: 10143
+      port: 10047
       server: 127.0.0.1
       type: socks5
       udp: true
     - name: 其他-澳门（公网；智能）-ninja
-      port: 10144
+      port: 10048
       server: 127.0.0.1
       type: socks5
       udp: true
